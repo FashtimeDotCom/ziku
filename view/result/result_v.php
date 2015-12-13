@@ -122,9 +122,9 @@
                 </label>
             </a>
             <div style="display: none; position: relative;left: -95px;height: 0px;width: 0px;top: -120px;">
-                <div style="display: inline-block;height: 163px;width: 153px;border-radius: 5px;background: #5c5c5c;color: #ccc;line-height: 40px;text-align: center;padding-top: 10px;">
+                <!-- <div style="display: inline-block;height: 163px;width: 153px;border-radius: 5px;background: #5c5c5c;color: #ccc;line-height: 40px;text-align: center;padding-top: 10px;">
                     <img src="/Content/Styles/Default/img/dyh.png" width="129px">
-                </div>
+                </div> -->
                 <div style="position: relative;top: -80px;left: 153px;width: 0;height: 0;border-top: 5px solid transparent;border-left: 5px solid #5c5c5c ;border-bottom: 5px solid transparent;">
                 </div>
             </div>
@@ -144,11 +144,11 @@
     </style>
     <div id="srl-m-shoder" class="clearfix">
         <div id="srl-m-s-lholder" class="fl">
-            <img src="/Content/Styles/Default/img/R.png" style="position: absolute;left: 154px;width: 14px;height: 14px;top: 20px;">
+            <!-- <img src="/Content/Styles/Default/img/R.png" style="position: absolute;left: 154px;width: 14px;height: 14px;top: 20px;"> -->
             <a class="srl-m-s-logo" href="http://www.baiten.cn/" target="_blank">
             </a>
         </div>
-        <form action="/PublicParts/SearchBox" id="formbox" method="post">
+        <form action="<?php e(URL)?>result/index" id="formbox" method="get">
             <div id="srl-m-s" class="fl dn" style="display: block;">
                 <div id="srl-m-sbox" class="clearfix">
                     <div id="srl-m-s-cp" class="f14 fl" onselectstart="return false;">
@@ -157,7 +157,7 @@
                         </span>
                     </div>
                     <div id="srl-m-s-iholder" class="fl">
-                        <input type="text" id="srl-m-s-input" class="f14" name="SearchQuery" value="jiu">
+                        <input type="text" id="srl-m-s-input" class="f14" name="q" value="<?php e($this->searchText)?>">
                         <div id="srl-m-s-sop">
                             <span title="二次检索">
                             </span>
@@ -169,74 +169,9 @@
                                 二次检索
                             </b>
                             <div class="srl-m-s-ih-m-l">
-                                <div class="srl-m-s-ih-m-i clearfix">
-                                    <select class="fl">
-                                        <option selected="selected" value="ti">
-                                            专利名称
-                                        </option>
-                                        <option value="an">
-                                            申请号
-                                        </option>
-                                        <option value="ad">
-                                            申请日
-                                        </option>
-                                        <option value="pn">
-                                            公开/公告号
-                                        </option>
-                                        <option value="pd">
-                                            公开/公告日
-                                        </option>
-                                        <option value="ab">
-                                            摘要
-                                        </option>
-                                        <option value="ac">
-                                            主权项
-                                        </option>
-                                        <option value="ic1">
-                                            主分类号
-                                        </option>
-                                        <option value="ic2">
-                                            分类号
-                                        </option>
-                                        <option value="pa">
-                                            申请/专利权人
-                                        </option>
-                                        <option value="in">
-                                            发明/设计人
-                                        </option>
-                                        <option value="agc">
-                                            专利代理机构
-                                        </option>
-                                        <option value="aa">
-                                            地址
-                                        </option>
-                                        <option value="pr">
-                                            优先权项
-                                        </option>
-                                        <option value="">
-                                            所有字段
-                                        </option>
-                                    </select>
-                                    <input class="srl-m-s-ih-m-i-input fl" type="text">
+                                <div class="srl-m-s-ih-m-i clearfix">          
                                 </div>
-                            </div>
-                            <div class="srl-m-s-ih-m-l bc">
-                                <input type="radio" name="searchType" id="st_ec" checked="checked">
-                                <label for="st_ec" class="mr15">
-                                    二次检索
-                                </label>
-                                <input type="radio" name="searchType" id="st_pc">
-                                <label for="st_pc">
-                                    排除检索
-                                </label>
-                            </div>
-                            <div class="srl-m-s-ih-m-btn">
-                                <button type="button" data-actiontype="sec" id="secondSearch">
-                                    检索
-                                    <span>
-                                    </span>
-                                </button>
-                            </div>
+                            </div>                                                    
                         </div>
                     </div>
                     <div id="srl-m-s-btn" class="fl">
@@ -247,13 +182,13 @@
                         </button>
                     </div>
                     <div class="fl">
-                        <a class="sbox-ipcLink" href="/Search/CategoryDetail?t=0&amp;k=0&amp;la=0">
+                        <a class="sbox-ipcLink" href="#">
                             IPC分类检索
                         </a>
-                        <a class="sbox-locLink" href="/Search/CategoryDetail?t=1&amp;k=0&amp;la=1">
+                        <a class="sbox-locLink" href="#">
                             Locarno分类检索
                         </a>
-                        <a class="sbox-adsLink" href="/ads">
+                        <a class="sbox-adsLink" href="#">
                             高级检索
                         </a>
                     </div>
@@ -437,18 +372,7 @@
                             </a>
                         </li>
                     </ul>
-                </div>
-                <input type="hidden" value="jiu" id="sbox-searchQuery">
-                <input type="hidden" value="p" id="sbox-viewModel" name="ViewModel">
-                <input type="hidden" value="63" id="sbox-patType" name="PatType">
-                <input type="hidden" value="0" id="sbox-sortType" name="SortType">
-                <input type="hidden" value="" id="sbox-lawType" name="LawType">
-                <input type="hidden" value="1" id="sbox-isCn" name="IsCn">
-                <input type="hidden" value="1" id="sbox-isCn-new">
-                <input type="hidden" id="sbox-ns" name="NSession">
-                <input type="hidden" value="bba78e45-6f0a-47ce-98d9-ee1a2cb906de" name="sbox-tsp">
-                <input type="hidden" value="1§63§0§§bba78e45-6f0a-47ce-98d9-ee1a2cb906de"
-                id="ExportHifAbstract" name="ExportHifAbstract">
+                </div>                
             </div>
             <div id="dialog" title="友情提醒" style="display:none;">
                 <p class="f16 popError">
@@ -816,6 +740,7 @@
         if($this->result == false){
             echo("搜索结果为0");
         }else{
+            foreach ($this->result as $key => $value) {           
     ?>
         <div class="sm-c clearfix" data-iscnmain="True">
             <div class="fl sm-c-leftp">
@@ -838,29 +763,19 @@
                         </span>
                     </span>
                     <span class="mlr256" name="1">
-                        [发明专利] [发明授权专利]
+                        [发明专利]
                     </span>
-                    <a class="srl-detail-ti f16" data-al-ti="一种通过智能卡开展数字媒体互动业务的方法" data-actiontype="patd"
-                    data-al-an="CN201010608795.6" data-id="CN201010608795.6" data-pages="14"
-                    data-type="63" data-cn="True" data-index="0" href="                                                                                                                                                                                                                                                                                     /detail/patentdetail/63/CN201010608795.6/14
-                    " name="一种通过智能卡开展数字媒体互动业务的方法">
-                        一种通过
-                        <em>
-                            智能
-                        </em>
-                       <?php e($this->result["Title"])?>
+                    <a class="srl-detail-ti f16 result-area">
+                       <?php e($value["Title"])?>
                     </a>
                     <span class="mlr6">
                         -
                     </span>
-                    <a class="srl-detail-an" data-al-an="CN201010608795.6" data-al-ti="一种通过智能卡开展数字媒体互动业务的方法"
-                    data-actiontype="patd" data-id="CN201010608795.6" data-type="63" data-pages="14"
-                    data-cn="True" data-index="0">
-                        CN201010608795.6
+                    <a class="srl-detail-an result-area">
+                        <?php e($value["PubNumber"])?>
                     </a>
-                    <span class="mrl6                                             lawState-yx
-                    ">
-                        有效专利
+                    <span class="mrl6 lawState-yx result-area">
+                        <?php e($value["LawState"])?>
                     </span>
                 </li>
                 <li class="srl-detail-translate-li dn">
@@ -870,16 +785,8 @@
                         申请人：
                     </label>
                     <span>
-                        <a href="/Search/GoToSearcht?sq=46408248C4316B25105A196E269C2825EE5107E6AF431CD0A6C29DFCA5791A8E644FFC12011EB070252A22A819C013F10846197799AC0F9205B6FDF014E6B1C9A0D6003455C6D7C86862393B103EAD74552DF9A8C5454F76B47645F6574A0E9A782C9792C6745E4F92FF45F5B47E631F7AF4690263E737DE61362BEF91C3AE7E&amp;type=63"
-                        target="_blank">
-                            广东楚天龙
-                            <em>
-                                智
-                            </em>
-                            <em>
-                                能
-                            </em>
-                            卡有限公司
+                        <a href="#" target="_blank" class="result-area">
+                           <?php e($value["ApplicantName"])?>
                         </a>
                     </span>
                 </li>
@@ -887,9 +794,8 @@
                     <label>
                         申请日：
                     </label>
-                    <a href="/Search/GoToSearch?sq=ad:(&quot;20101228&quot;)&amp;type=63"
-                    target="_blank">
-                        <?php e($this->result["AppDate"])?>
+                    <a href="#" target="_blank" class="result-area">
+                        <?php e($value["AppDate"])?>
                     </a>
                     <span class="mlr6">
                         -
@@ -897,9 +803,8 @@
                     <label>
                         主分类号：
                     </label>
-                    <a href="/Search/GoToSearch?sq=ic1:(&quot;H04L29/06&quot;)&amp;type=63"
-                    target="_blank">
-                        H04L29/06
+                    <a href="#" target="_blank" class="result-area">
+                        <?php e($value["IPC"])?>
                     </a>
                 </li>
                 <li>
@@ -907,12 +812,8 @@
                         <label>
                             摘要：
                         </label>
-                        <span class="srl-detail-summary" data-summary="本发明一种通过智能卡开展数字媒体互动业务的方法，可为数字媒体互动业务提供身份认证、多用户权限管理、金融支付、在线充值、实时点播、个性化定制、应用服务程序下载等增值业务方面的需求；使得所有与互动业务信息相关的处理都在智能卡内完成，终端无须进行任何硬件改动，可以在现有的成熟终端移植，加快终端厂商的集成速度，降低终端厂商的研发成本，增强运营商整合产业链的能力；方便运营商和用户之间建立服务或金融支付关系，从而为数字媒体互动应用业务的应用和推广提供坚实的保证。">
-                            ，从而为数字媒体互动应用业务的
-                            <em>
-                                智能
-                            </em>
-                            应用和推广提供坚实的保证。
+                        <span class="srl-detail-summary result-area">
+                            <?php e($value["Abstract"])?>
                         </span>
                     </p>
                 </li>
@@ -951,6 +852,7 @@
         </div>
     <?php
         }
+    }
     ?>
         <div class="paging f14">   
             <div class="pages" style="text-align:center">
@@ -1036,7 +938,9 @@
     </div> -->
 </div>
 <script type="text/javascript">
-    var json = <?php e($this->json)?>
+    var Model = {
+        searchText : "<?php e($this->searchText)?>"
+    }
 </script>
 
 

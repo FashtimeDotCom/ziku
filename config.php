@@ -28,7 +28,7 @@ $constant = array ('LIB'    => 'lib/',
  */
 define("LOCAL_FLAG", true);
 if (LOCAL_FLAG) {
-	$change_constant = array ('URL'         => 'http://192.168.1.113/ziku/',
+	$change_constant = array ('URL'         => 'http://localhost/ziku/',
 							  'CSS'         => 'public/css/',
 				   			  'JS'          => 'public/js/',
 				   			  'VIEW'        => 'view/',

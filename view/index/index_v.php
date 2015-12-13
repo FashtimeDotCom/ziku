@@ -23,9 +23,9 @@
 		<span class="fl"></span>
 	</div>
 </div>
-<div class="logo-h">
+<!-- <div class="logo-h">
     <h1 class="logo bc txtoff" style="position: relative;"><img src="/Content/Styles/Default/img/R.png" style="position: absolute;top: -5px;left: 200px;width: 16px;height: 16px;display: inline-block;"></h1>
-</div>
+</div> -->
 <div id="slideBlocks" class="bc">
     <div class="searchHolder bc" id="CategorySearch111">
         <form action="<?php e(URL)?>/index/CateSearch" id="form0" method="post">    
@@ -38,24 +38,7 @@
                     <input type="text" class="dn">
                     <button id="categorySubmit" class="searchBtn ps f20 txtoff" type="submit">分类检索</button>
                 </div>
-            </div>
-            <div style="width: 760px;" class="bc">
-                <ul class="csClass bc f14 clearfix">
-                    <li class="cs-cbHolder fl" style="margin-right: 40px;">
-                        <span class="inChecked">
-                            <input type="radio" checked="checked" name="cs_radio0">
-                            <input type="hidden" name="cs_keyword" value="0">
-                        </span>                        
-                        <a>输入关键字查分类号</a>
-                    </li>
-                    <li class="cs-cbHolder fl">
-                        <span class="inChecked inxunchecked">
-                            <input type="radio" name="cs_radio1">
-                        </span>
-                        <a>输入zh、分类号查含义</a>
-                    </li>
-                </ul>
-            </div>
+            </div>           
         </form>
     </div>
 </div>
