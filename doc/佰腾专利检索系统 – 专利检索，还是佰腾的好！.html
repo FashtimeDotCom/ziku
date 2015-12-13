@@ -1,0 +1,1402 @@
+<!DOCTYPE html>
+<!-- saved from url=(0020)http://so.baiten.cn/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <!--[if IE 6.0]>
+            <script>
+                location.replace('/Error/kill_ie6/');
+            </script>
+        <![endif]-->
+        <meta charset="UTF-8">
+        <meta name="keywords" content="专利,专利查询,专利检索,专利下载,佰腾专利检索,中国专利检索">
+        <meta name="description" content="佰腾专利检索系统永久免费，专利查询性能业内领先；全新升级中、美、日、英、欧专、PCT等八国、二组织专利文献，专利检索结果更全面；全新专利下载，专利管理功能。">
+        <title>佰腾专利检索系统 – 专利检索，还是佰腾的好！</title>
+        <link rel="stylesheet" href="http://so.baiten.cn/Content/Styles/base.css">
+        <link type="text/css" rel="Stylesheet" href="./佰腾专利检索系统 – 专利检索，还是佰腾的好！_files/common.css">
+
+        <link type="text/css" rel="Stylesheet" href="./佰腾专利检索系统 – 专利检索，还是佰腾的好！_files/index.css">
+
+        <style>
+            #scroll{ right: 40px;}
+        </style>
+        <link rel="stylesheet" href="http://so.baiten.cn/Content/themes/redmond/jquery-ui-1.9.0.custom.min.css">
+          <script src="./佰腾专利检索系统 – 专利检索，还是佰腾的好！_files/hm.js"></script><script id="seajsnode" src="./佰腾专利检索系统 – 专利检索，还是佰腾的好！_files/sea.js" data-config="/Scripts/config"></script>
+    </head>
+<body>
+    <div id="indexHeader" style="z-index: 200;position:relative;min-width:980px;">
+        <ul class="ih-nav clearfix f14 fl">
+            <li class="fl"><a href="http://www.baiten.cn/" target="_blank">佰腾首页</a></li>
+            <li class="fl"><a href="./佰腾专利检索系统 – 专利检索，还是佰腾的好！_files/佰腾专利检索系统 – 专利检索，还是佰腾的好！.html" target="_blank">专利检索</a></li>
+            <li class="fl"><a href="http://www.zlbaba.com/biz_patapply_patform_inpat" target="_blank">专利申请</a></li>
+            <li class="fl"><a href="http://www.baiten.cn/Product/Platform" target="_blank">创新平台</a></li>
+            <li class="fl"><a href="http://www.jsxiaoguo.com/" target="_blank">校果网</a></li>
+            <li class="fl"><a href="http://idea.baiten.cn/" target="_blank">创意图库</a></li>
+            <li class="fl"><a class="froum" href="http://bbs.baiten.cn/" target="_blank">知识产权论坛</a></li>
+            
+                <li class="fl more"><a href="http://i.baiten.cn/_tourist/My_App_Index" target="_blank">更多</a></li>
+        </ul>
+        <div class="fr f14 user" style="margin-right:45px;">
+            
+                欢迎您，请
+                <a href="http://so.baiten.cn/#" class="introjs-step" id="login" data-introinfo="登录后会保存您的搜索历史记录！" data-position="TL">登录</a>
+                或
+                <a href="http://register.baiten.cn/" class="introjs-step" id="step2" data-introinfo="您可以免费注册账号！" data-position="TL">免费注册</a>
+        </div>
+    </div>
+	<div id="sectionNav" class="bc">
+		<span class="fl"></span>
+		<span class="fl navHover"></span>
+		<span class="fl"></span>
+	</div>
+	<div class="logo-h">
+		<h1 class="logo bc txtoff" style="position: relative;"><img src="./佰腾专利检索系统 – 专利检索，还是佰腾的好！_files/R.png" style="position: absolute;top: -5px;left: 200px;width: 16px;height: 16px;display: inline-block;"></h1>
+	</div>
+	<div id="board" class="f12 introjs-step" data-introinfo="查看最新更新日期！" data-position="TL" style="right:80px;">
+	    <ul class="board-ul">
+	        <li><a>中国公开专利最新公告日：2015-12-02</a></li>
+	        <li class="dn"><a>美国公开专利最新公告日：2015-06-16</a></li>
+	        <li class="dn"><a>欧专公开专利最新公告日：2015-07-01</a></li>
+	        <li class="dn"><a>wipo公开专利最新公告日：2015-06-25</a></li>
+	    </ul>
+	    <div class="dataSocap"><a href="http://so.baiten.cn/RangeList.html">查看数据范围</a></div>
+	</div>
+	<div id="slideBlocks" class="bc">
+        <div class="searchHolder pc bc" style="opacity: 0; left: 0px; display: none;">
+<form action="http://so.baiten.cn/Index/Index" method="post">                <div class="inputHolder pc">
+                    <div class="inputBg">
+                        <div class="changeClass f20 introjs-step" data-introinfo="中国专利库 ，外国专利库 切换！" data-position="TR" id="step4" onselectstart="return false;">中国专利库<span></span></div>
+                        <div class="changeClass foreign f20" style="display: none" onselectstart="return false;">外国专利库<span></span></div>
+                        <input name="searchQuerystring" class="search f20" type="text" placeholder="新的一天，从SO开始" autocomplete="off" id="searchQuerystring">
+                        <input type="text" class="dn">
+                        <button id="searchSubmit" class="searchBtn ps txtoff" type="submit">Search</button>
+                    </div>
+                    <a class="adsLink f18" href="http://so.baiten.cn/ads">高级检索</a>
+                  
+                </div>
+                <div id="ixcfpclass">
+                    <ul class="pClass bc f14 clearfix" id="CNpclass">
+                         <li class="pc-cbHolder fl" id="c-cbAll-holder">
+                            <span class="pc-cb">
+                                <input type="checkbox" checked="checked" id="c-cbAll">
+                            </span>
+                            <a>全选</a>
+                        </li>
+                        <li class="pc-cbHolder fl">
+                            <span class="pc-cb">
+                                <input type="checkbox" checked="checked" value="1">
+                            </span>                        
+                            <a>发明专利</a>
+                        </li>
+                        <li class="pc-cbHolder fl">
+                            <span class="pc-cb">
+                                <input type="checkbox" checked="checked" value="2">
+                            </span>
+                            <a>实用新型</a>
+                        </li>
+                        <li class="pc-cbHolder fl">
+                            <span class="pc-cb">
+                                <input type="checkbox" checked="checked" value="4">
+                            </span>
+                            <a>外观设计</a>
+                        </li>
+                        <li class="pc-cbHolder fl">
+                            <span class="pc-cb">
+                                <input type="checkbox" checked="checked" value="8">
+                            </span>
+                            <a>发明授权专利</a>
+                        </li>
+                        <li class="pc-cbHolder fl">
+                            <span class="pc-cb">
+                                <input type="checkbox" checked="checked" value="16">
+                            </span>
+                            <a>中国台湾专利</a>
+                        </li>
+                        <li class="pc-cbHolder fl">
+                            <span class="pc-cb">
+                                <input type="checkbox" checked="checked" value="32">
+                            </span>
+                            <a>香港特区</a>
+                        </li>
+
+                    </ul>
+                    <ul class="pClass foreign bc f14 clearfix" style="display: none;" id="Fpclass">
+                        <li class="pc-cbHolder fl" id="f-cbAll-holder">
+                            <span class="pc-cb">
+                                <input type="checkbox" checked="checked" id="f-cbAll">
+                            </span>
+                            <a>全选</a>
+                        </li>
+                        <li class="pc-cbHolder fl">
+                            <span class="pc-cb">
+                                <input type="checkbox" checked="checked" value="64">
+                            </span>
+                            <a>美国公开</a>
+                        </li>
+                        <li class="pc-cbHolder fl">
+                            <span class="pc-cb">
+                                <input type="checkbox" checked="checked" value="128">
+                            </span>
+                            <a>美国授权</a>
+                        </li>
+                        <li class="pc-cbHolder fl">
+                            <span class="pc-cb">
+                                <input type="checkbox" checked="checked" value="256">
+                            </span>
+                            <a>日本</a>
+                        </li>
+                        <li class="pc-cbHolder fl">
+                            <span class="pc-cb">
+                                <input type="checkbox" checked="checked" value="512">
+                            </span>
+                            <a>英国</a>
+                        </li>
+                        <li class="pc-cbHolder fl">
+                            <span class="pc-cb">
+                                <input type="checkbox" checked="checked" value="1024">
+                            </span>
+                            <a>法国</a>
+                        </li>
+                        <li class="pc-cbHolder fl">
+                            <span class="pc-cb">
+                                <input type="checkbox" checked="checked" value="2048">
+                            </span>
+                            <a>德国</a>
+                        </li>
+                        <li class="pc-cbHolder fl">
+                            <span class="pc-cb">
+                                <input type="checkbox" checked="checked" value="4096">
+                            </span>
+                            <a>瑞士</a>
+                        </li>
+                        <li class="pc-cbHolder fl">
+                            <span class="pc-cb">
+                                <input type="checkbox" checked="checked" value="8192">
+                            </span>
+                            <a>俄罗斯</a>
+                        </li>
+                        <li class="pc-cbHolder fl">
+                            <span class="pc-cb">
+                                <input type="checkbox" checked="checked" value="16384">
+                            </span>
+                            <a>PCT组织</a>
+                        </li>
+                        <li class="pc-cbHolder fl">
+                            <span class="pc-cb">
+                                <input type="checkbox" checked="checked" value="32768">
+                            </span>
+                            <a>欧专</a>
+                        </li>
+                        <li class="pc-cbHolder pc-Korea fl">
+                            <span class="pc-cb">
+                                <input type="checkbox" checked="checked" value="65536">
+                            </span>
+                            <a>韩国</a>
+                        </li>
+                        <li class="pc-cbHolder fl">
+                            <span class="pc-cb">
+                                <input type="checkbox" checked="checked" value="131072">
+                            </span>
+                            <a>东南亚</a>
+                        </li>
+                    </ul>
+                    <input type="hidden" name="pc_isChinese" value="1">
+                    <input type="hidden" name="pc_ptype" value="7">
+                </div>
+                    <style>
+                        #scroImg {height: 180px;width: 670px;overflow: hidden;margin: 0 24px;padding-bottom: 50px;position: relative;}
+                        .imgUl {position: relative;left: 0px;height: 180px;width: 1340px;top:10px;}
+                        .imgUl li {background: no-repeat center;width: 670px;height: 180px;float: left;}
+                        .scrollBtn {width: 56px;height: 56px;display: inline-block;position: absolute;bottom: 90px;cursor: pointer;}
+                    </style>
+                    <div id="scroImg" cindex="1" class="fl">
+                        <ul class="imgUl" style="left: -670px;">
+                                <li>
+                                    <a href="http://www.zlbaba.com/zldg" adp="SoZone_MainAd_1" style="background: url(http://f1.baiten.cn/Download?fid=7e8d62f9-3aff-ccf1-63b4-08d2f6ccd5de&amp;fuid=e6166de59d67cc728b619475e3a5c272-41142&amp;type=image) center no-repeat;" target="_blank" class="wordload-ad-bg"></a>
+                                </li>
+                                <li>
+                                    <a href="http://std.baiten.cn/" adp="SoZone_MainAd_3" style="background: url(http://f1.baiten.cn/Download?fid=7c3ec59b-418f-c461-08cb-08d22910a5cf&amp;fuid=f12c33bfef2c23f55e542e27e256f0ec-69156&amp;type=image) center no-repeat;" target="_blank" class="wordload-ad-bg"></a>
+                                </li>
+                        </ul>
+                        <span id="prev" class="scrollBtn" style="background: url(/Content/Styles/Default/img/prevArrow.png); left: 5px"></span>
+                        <span id="next" class="scrollBtn" style="background: url(/Content/Styles/Default/img/nextArrow.png); right: 5px;"></span>
+                    </div>
+</form>        </div> 
+	    <div class="searchHolder bc" id="CategorySearch111" style="display: block; opacity: 100; left: 0px;">
+<form action="http://so.baiten.cn/Index/CategorySearch" data-ajax="true" data-ajax-method="Post" data-ajax-mode="replace" data-ajax-update="#CategorySearch111" id="form0" method="post">    <div class="inputHolder ipc bc">
+        <div class="inputBg ipc">
+            <div class="categoryClass f20">IPC<span></span></div>
+            <div class="categoryClass foreign f20" style="display: none">Locarno<span></span></div>
+            <input type="hidden" name="searchType" value="0">
+            <input name="categoryQuerystring" class="search f20" type="text" placeholder="新的一天，从SO开始" autocomplete="off" id="categoryQuerystring">
+            <input type="text" class="dn">
+            <button id="categorySubmit" class="searchBtn ps f20 txtoff" type="submit">分类检索</button>
+        </div>
+    </div>
+    <div style="width: 760px;" class="bc">
+        <ul class="csClass bc f14 clearfix">
+            <li class="cs-cbHolder fl" style="margin-right: 40px;">
+                <span class="inChecked">
+                    <input type="radio" checked="checked" name="cs_radio0">
+                    <input type="hidden" name="cs_keyword" value="0">
+                </span>                        
+                <a>输入关键字查分类号</a>
+            </li>
+            <li class="cs-cbHolder fl">
+                <span class="inChecked inxunchecked">
+                    <input type="radio" name="cs_radio1">
+                </span>
+                <a>输入分类号查含义</a>
+            </li>
+        </ul>
+    </div>
+    <div class="favSearch bc">
+        <div class="fs-title">
+            <h2 class="f14">常用分类</h2>
+        </div>
+        <div class="fs-main">
+            <ul class="fs-m-list bc clearfix" id="commonIpc">
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A(H04)&type=63" target="_blank" title="通信技术">通信技术</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A(H02K)&type=63" target="_blank" title="电机">电机</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A(H01)&type=63" target="_blank" title="电子元件">电子元件</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A(G11)&type=63" target="_blank" title="信息存储">信息存储</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A(G08)&type=63" target="_blank" title="信号装置">信号装置</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A(G01)&type=63" target="_blank" title="测试测量">测试测量</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A(G02%20or%20G03)&type=63" target="_blank" title="光学摄影">光学摄影</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A(F41%20or%20F42)&type=63" target="_blank" title="武器弹药">武器弹药</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A(F21%20or%20H01K)&type=63" target="_blank" title="照明">照明</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A(F01%20or%20F02%20or%20F03%20or%20F04)&type=63" target="_blank" title="发动机泵">发动机泵</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A(E21)&type=63" target="_blank" title="钻进采矿">钻进采矿</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A(E05B%20or%20E06)&type=63" target="_blank" title="锁门窗梯子">锁门窗梯子</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A(E04)&type=63" target="_blank" title="建筑物">建筑物</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A(E01)&type=63" target="_blank" title="路桥">路桥</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A(E03)&type=63" target="_blank" title="给排水">给排水</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A(E02)&type=63" target="_blank" title="土木工程">土木工程</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A(C08%20or%20C09%20or%20C10%20or%20C11)&type=63" target="_blank" title="高分子">高分子</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A(C07)&type=63" target="_blank" title="有机化学">有机化学</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A(C01%20or%20C03%20or%20C04)&type=63" target="_blank" title="无机化学">无机化学</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A(B67)&type=63" target="_blank" title="包装容器">包装容器</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A(B65%20or%20B66)&type=63" target="_blank" title="存储运输">存储运输</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A(B64)&type=63" target="_blank" title="飞行航空">飞行航空</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A(B63)&type=63" target="_blank" title="船舶">船舶</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A(B61)&type=63" target="_blank" title="轨道车辆">轨道车辆</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A(B60)&type=63" target="_blank" title="一般车辆">一般车辆</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A(B25%20or%20B26)&type=63" target="_blank" title="手动工具">手动工具</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A(B27%20or%20B28%20or%20B29%20or%20B31)&type=63" target="_blank" title="非金属加工">非金属加工</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A(A61)&type=63" target="_blank" title="医疗卫生">医疗卫生</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A(A45%20or%20A46%20or%20A47)&type=63" target="_blank" title="日用品家具">日用品家具</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A(A01%20or%20C05)&type=63" target="_blank" title="农林牧猎渔">农林牧猎渔</a>
+                        </li> 
+            </ul>
+            <ul class="fs-m-list bc clearfix" id="commoLocarno" style="display:none;">
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A20-01&type=4" target="_blank" title="自动售货机">自动售货机</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A16-03&type=4" target="_blank" title="影印机">影印机</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A16-02&type=4" target="_blank" title="放映机">放映机</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A16-01&type=4" target="_blank" title="照相摄影">照相摄影</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A15-09&type=4" target="_blank" title="机床和铸造">机床和铸造</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A15-02&type=4" target="_blank" title="泵和压缩机">泵和压缩机</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A15-01&type=4" target="_blank" title="发动机">发动机</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A13-02&type=4" target="_blank" title="电池">电池</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A13-01&type=4" target="_blank" title="发电机">发电机</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A12-05&type=4" target="_blank" title="电梯升降机">电梯升降机</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A12-03&type=4" target="_blank" title="有轨车辆">有轨车辆</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A09-04&type=4" target="_blank" title="篮子">篮子</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A09-03&type=4" target="_blank" title="盒">盒</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A09-01&type=4" target="_blank" title="瓶">瓶</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A03-01&type=4" target="_blank" title="箱子钱包">箱子钱包</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A02-05&type=4" target="_blank" title="领带围巾">领带围巾</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A02-06&type=4" target="_blank" title="手套">手套</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A30-03&type=4" target="_blank" title="睡垫和窝">睡垫和窝</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A30-04&type=4" target="_blank" title="鞍具">鞍具</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A%2024-02&type=4" target="_blank" title="医疗器械">医疗器械</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A12-06&type=4" target="_blank" title="船艇">船艇</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A(08-10%20or%2012-11)&type=4" target="_blank" title="摩托车">摩托车</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A12-08&type=4" target="_blank" title="汽车货车">汽车货车</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A11-05&type=4" target="_blank" title="节日装饰品">节日装饰品</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A11-01&type=4" target="_blank" title="珠宝首饰">珠宝首饰</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A03-03&type=4" target="_blank" title="雨伞">雨伞</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A(02-01%20or%2002-03)&type=4" target="_blank" title="鞋袜帽子">鞋袜帽子</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A(02-01%20or%2002-02%20or%2002-07%20or%2030-01)&type=4" target="_blank" title="服装">服装</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A01-06&type=4" target="_blank" title="动物食品">动物食品</a>
+                        </li> 
+                        <li class="cas-m-l-item fl f14">
+                            <a class="txtcut cas-m-l-itemling" href="http://so.baiten.cn/Search/GoToSearch?sq=ic1%3A01-03&type=4" target="_blank" title="黄油奶制品">黄油奶制品</a>
+                        </li> 
+            </ul>
+        </div>
+        <div class="fs-footer"></div>
+    </div>
+</form></div>
+
+
+        
+	    
+	    <div class="searchHolder bc" style="display: none; left: 0px; opacity: 0;">
+	        <div class="inputHolder bc f24" style="text-align: center; line-height:68px;color:#5a5a5a">
+	            超领先智能检索即将推出，敬请期待！！
+	        </div>
+	    </div>
+	</div>
+    <div id="dialog" title="友情提醒" style="display:none;"><p class="f16 search-propContent">至少选择一种专利类型！</p></div>
+  <div class="siteFooter">
+        <a href="http://www.baiten.cn/" target="_blank"> ©2015 baiten</a><span>服务热线：400-881-7780</span><span>苏IPC备09077504号-3</span>
+      <a href="http://www.cnzz.com/stat/website.php?web_id=1000100035" target="_blank" title="站长统计">站长统计</a>
+       <a href="http://tongji.baidu.com/hm-web/welcome/ico?s=7d1464bea23d027a546b7e43a12ce62b" target="_blank">网站统计</a>
+        <script type="text/javascript">
+            var _hmt = _hmt || [];
+        </script>
+        <a id="step5" data-introinfo="使用IE8.0会有更好的操作体验！" class="introjs-step" data-position="LB">建议使用IE8.0</a>
+        <a class="changeLog" href="http://so.baiten.cn/version.html" target="_blank">更新日志</a>
+        <a key="533bdaa3efbfb01ecf92f52c" logo_size="83x30" logo_type="realname" href="http://www.anquan.org/authenticate/cert/?site=so.baiten.cn/prebook/prebook/&at=realname" class="aq_auth" id="aq_auth" target="_blank"><span style="display:none;" id="AQ_logo_0X25iCn71j8SqH1o"><script src="./佰腾专利检索系统 – 专利检索，还是佰腾的好！_files/saved_resource" type="text/javascript" async="true"></script></span><img src="./佰腾专利检索系统 – 专利检索，还是佰腾的好！_files/sm_83x30_gray.png" alt="安全联盟认证" width="83" height="30" style="border: none;"></a>
+        <a key="533bdaa3efbfb01ecf92f52c" logo_size="83x30" logo_type="official" href="http://www.anquan.org/authenticate/cert/?site=so.baiten.cn/prebook/prebook/&at=official" class="aq_auth" id="aq_auth1" target="_blank"><span style="display:none;" id="AQ_logo_C3464KcAq23Q1qX8"><script src="./佰腾专利检索系统 – 专利检索，还是佰腾的好！_files/saved_resource(1)" type="text/javascript" async="true"></script></span><img src="./佰腾专利检索系统 – 专利检索，还是佰腾的好！_files/gw_83x30_gray.png" alt="安全联盟认证" width="83" height="30" style="border: none;"></a>
+    </div>
+    <div class="bg current" style="background-image: url(http://so.baiten.cn/Content/Styles/Default/img/bg_42.jpg);"></div>
+    <div>
+        <div class="section-turn prev" style="left:40px"></div>
+          <div id="pd-fullscreen-dialog-bg"></div>
+
+<style>
+    .quick-barBG{position:fixed;top:0px;right:0px;width: 36px;min-height: 600px;overflow: visible;bottom: 0;z-index: 1003;background: #5c5c5c;}
+    .quick-bar1{width: 36px;visibility: visible;position: absolute;z-index: 99;top: 48px;color: #aaa;}
+    .quick-bar2{width: 36px;visibility: visible;position: absolute;z-index: 99;bottom: 20px;color: #aaa;}
+    .qb-scro{ width:36px;height: 20px;display:none;position: absolute;right: 0;background:url(/Content/Styles/Default/img/qb-arror.png) no-repeat ;cursor: pointer;background-position:0 -26px;}
+    .qb-scro:hover{ background-position: 0   +4px;}
+    .quickBar-logo{z-index: 100;width: 45px;height: 54px;position: absolute;left: -30px;top: -24px;display: inline-block;background:url(/Content/Styles/Default/img/quickBar-logo.png) }
+    .qb-in{background: url(/Content/Styles/Default/img/quickBoxIcon.png) no-repeat;display: inline-block;position: relative;cursor: pointer; border-top: 1px solid #666;width: 20px;height: 72px;padding: 20px 8px 48px 8px;line-height: 18px;font-size: 14px;text-align: center;}
+    .qb-in:hover{background-color: #5180d8; border-top: 1px solid #666;width: 20px;height: 72px;padding: 20px 8px 48px 8px;line-height: 18px;font-size: 14px;text-align: center; color: #fff;}
+    .qb-logo{display: inline-block;position: relative;cursor: pointer;width: 24px;height: 24px;padding: 16px 6px 16px 6px;cursor: pointer;}
+    .qb-logo:hover{ background-color: #5180d8;}
+    .qb-logo span{ position: absolute;background: #e15a2d;color: #fff;height: 14px;width: 24px;line-height: 14px;border-radius: 2px;text-align: center;right: 6px;bottom: 0px;}
+    .qb-logo label{width: 24px;height: 24px;display: inline-block;cursor: pointer;}
+    .qbq-logo{display: inline-block;position: relative;cursor: pointer;width: 24px;height: 24px;padding: 16px 6px 16px 6px;cursor: pointer;}
+    .qbq-logo:hover{ background-color: #5180d8;}
+    .qbq-logo span{ position: absolute;background: #e15a2d;color: #fff;height: 14px;width: 24px;line-height: 14px;border-radius: 2px;text-align: center;right: 6px;bottom: 0px;}
+    .qbq-logo label{width: 24px;height: 24px;display: inline-block;cursor: pointer;}
+    .qb-1{ background-position: -2px 96px; }
+    .qb-1:hover{ background-position: -48px 96px;}
+    .qb-2{ background: url(/Content/Styles/Default/img/quickBoxIcon.png) no-repeat -8px -48px; }
+    .qb-3{background: url(/Content/Styles/Default/img/quickBoxIcon.png) no-repeat -8px -77px;  }
+    .qb-4{ background: url(/Content/Styles/Default/img/quickBoxIcon.png) no-repeat -8px -106px; }
+    .qb-5{background: url(/Content/Styles/Default/img/quickBoxIcon.png) no-repeat -8px -135px;  }
+    .qb-6{ background: url(/Content/Styles/Default/img/quickBoxIcon.png) no-repeat -8px -166px; }
+    .qb-7{background: url(/Content/Styles/Default/img/quickBoxIcon.png) no-repeat -8px -196px;  }
+    .qb-8{ background: url(/Content/Styles/Default/img/quickBoxIcon.png) no-repeat -8px -225px; }
+    .qb-9{background: url(/Content/Styles/Default/img/quickBoxIcon.png) no-repeat -8px -258px;  }
+    .qb-10{ background: url(/Content/Styles/Default/img/quickBoxIcon.png) no-repeat -8px -291px; }
+    .qb-11{background: url(/Content/Styles/Default/img/quickBoxIcon.png) no-repeat -8px -324px;  }
+    .qb-12{background: url(/Content/Styles/Default/img/quickBoxIcon.png) no-repeat -8px -356px;  }
+    .qb-tip{display: none; position: relative;left: -95px;height: 0px;width: 0px;top: -45px;}
+    .qb-tip a{ color: #3f3f3f;text-decoration: none;}
+    .qb-tip-box{display: inline-block;height: 40px;width: 80px;border-radius: 5px;background: #5c5c5c;color: #ccc;line-height: 40px;text-align: center; }
+    .qb-tip-ar{position: relative;top: -30px;left: 80px;width: 0;height: 0;border-top: 5px solid transparent;border-left: 5px solid #5c5c5c ;border-bottom: 5px solid transparent;}
+    .qb-cont{ width: 200px;position:fixed;top:0px;right:-220px;overflow: visible;bottom: 0;z-index: 1003;background: #ececec;padding: 10px;}
+</style>
+<script id="seajsnode" src="./佰腾专利检索系统 – 专利检索，还是佰腾的好！_files/sea.js" data-config="/Scripts/config"></script>
+    <link href="./佰腾专利检索系统 – 专利检索，还是佰腾的好！_files/zTreeStyle.css" rel="stylesheet" type="text/css">
+<div class="quick-barBG">
+    <a id="qb-scOut" class="qb-scro" style="top:0px;background-position: -19px 0;" title="收起"></a>
+    <div class="quick-bar1 clearfix">
+        <div class="quickBar-logo"></div>
+
+        <a id="qb-ql" class="qb-in qb-1" tid="qb-quickLink">快捷入口</a>
+        <div class="qb-tip" style="left: -147px;top: -132px;cursor:pointer;">
+            <div class="qb-tip-box" style="width:100px;height:60px;font-size:14px;line-height: 30px;padding:30px 18px;">企业专利数据库检索语法帮助</div>
+            <div class="qb-tip-ar" style="left: 136px;top: -74px;"></div>
+        </div>
+        
+        <a tid="qb-cusService" class="qb-logo"><label class="qb-2"></label> </a>
+        <div class="qb-tip" style="cursor:pointer;">
+            <div class="qb-tip-box">联系客服</div>
+            <div class="qb-tip-ar"></div>
+        </div>
+        <a tid="qb-messageCenter" class="qb-logo"><label class="qb-3"></label>
+        </a>
+        <div class="qb-tip" style="cursor:pointer;">
+            <div class="qb-tip-box">消息中心</div>
+            <div class="qb-tip-ar"></div>
+        </div>
+        
+        
+        <a tid="qb-collection" class="qb-logo"><label class="qb-6"></label></a>
+        <div class="qb-tip" style="cursor:pointer;">
+            <div class="qb-tip-box">我的收藏</div>
+            <div class="qb-tip-ar"></div>
+        </div>
+
+        
+
+    </div>
+    <div class="quick-bar2 clearfix">
+        
+        <a tid="qb-feedBack" class="qb-logo"><label class="qb-10"></label></a>
+        <div class="qb-tip" style="cursor:pointer;">
+            <div class="qb-tip-box">在线反馈</div>
+            <div class="qb-tip-ar"></div>
+        </div>
+        <a class="qbq-logo"><label class="qb-11"></label></a>
+        <div style="display: none; position: relative;left: -95px;height: 0px;width: 0px;top: -120px;">
+            <div style="display: inline-block;height: 163px;width: 153px;border-radius: 5px;background: #5c5c5c;color: #ccc;line-height: 40px;text-align: center;padding-top: 10px;"><img src="./佰腾专利检索系统 – 专利检索，还是佰腾的好！_files/dyh.png" width="129px"></div>
+            <div style="position: relative;top: -80px;left: 153px;width: 0;height: 0;border-top: 5px solid transparent;border-left: 5px solid #5c5c5c ;border-bottom: 5px solid transparent;"></div>
+        </div>
+        <a id="qb-totop" tid="qb-totop" class="qb-logo" title="返回顶部"><label class="qb-12"></label></a>
+        
+
+
+    </div>
+     <a id="qb-scIn" class="qb-scro" style="bottom:0px;background-position:11px 0;" title="收起"></a>
+</div>
+       
+<style>
+    .cs-t1{ height: 38px;line-height: 38px;border-bottom: 1px solid #817d7e;padding-left: 15px;color: #3f3f3f;font-size: 16px;font-weight: 800;}
+    .cs-t2{margin-left: 15px;height: 24px;line-height: 24px;border-bottom: 1px dashed #817d7e;padding-left: 0px;color: #000;font-size: 12px;font-weight: bold}
+    .cs-ul{ margin: 10px 0 5px 0;color: #3f3f3f;}
+    .cs-tip{ color: #5c5c5c;margin-left: 15px;}
+    .cs-ul li{ background: url(/Content/Styles/Default/img/cs-icon.png) no-repeat;height: 31px;line-height: 31px;padding-left: 40px;font-size: 14px;margin: 5px 10px;display: inline-block;}
+    .cs-ul li a{ color:#3f3f3f;text-decoration: none;display: inline-block;width: 150px;}
+     .cs-ul p{ height: 24px;line-height: 24px;font-size: 14px;display: inline-block;}
+    .module .y{ display: none;}
+    .module dd{ display: none;}
+    .xld{ padding: 10px;color: #5c5c5c;}
+    .module dl dt a{overflow: hidden;text-overflow: ellipsis;  line-height: 24px;height: 24px;margin: 5px 0;padding-left: 10px;background: url(/Content/Styles/Default/img/tip.png) no-repeat 0 12px;color: #5c5c5c;font-size: 12px;text-decoration: none;display: inline-block;width: 180px;white-space: nowrap;}
+    .qb-moretip{ height: 32px;width: 180px;display: inline-block;line-height: 32px;color: #fff;padding-left: 20px;background: url(/Content/Styles/Default/img/qb-downArror.png) no-repeat 25px  12px #e1582e;text-align: center;text-decoration: none;}
+    .nomeassage{ width: 120px;margin: 50px 0 0 20px;height: 48px;line-height: 24px;padding-left: 50px;display: inline-block;background: url(/Content/Styles/Default/img/qb-nomessage.png) no-repeat 0px 10px; }
+    .feedback{ width: 180px;margin: 10px;line-height: 24px;}
+    .feedback textarea{ width: 170px;height: 320px;overflow-y: scroll;resize: none;padding: 5px;line-height: 20px;}
+    .feedback div input{ width: 170px;height: 24px;line-height: 24px;padding: 0 5px;}
+    .feedback .qb-btn,.feedback .qb-clr{ margin: 20px 10px;*margin: 20px 5px;height: 32px;line-height: 32px;color: #fff;text-align: center;border: none;cursor: pointer;}
+    .qb-btn{ width: 80px;background: #4e76bd;}
+    .qb-clr{ width: 60px;background: #999;}
+    .qbblock{ display: none;}
+    .qb-cbtn{ background: url(/Content/Styles/Default/img/qb-cbtn1.png) no-repeat;width: 14px;height: 14px;margin:0 0 10px 180px;cursor: pointer;display: inline-block;}
+    .qb-cbtn:hover{ background: url(/Content/Styles/Default/img/qb-cbtn2.png) no-repeat;}
+    .ztree li{ line-height: 22px;}
+    .ztree li span.button{ background: url("/Scripts/zTree/css/zTreeStyle/img/zTreeStandard.png") no-repeat -144px -1px;border: 0 none;position: relative;left: 3px;top: -1px;*top:1px;cursor: pointer;display: inline-block; height: 16px;line-height: 0;margin: 0;outline: medium none;vertical-align: middle;width: 16px;}
+    .ztree li span.button.ico_open{margin-right:5px; background-position:-110px -16px; vertical-align:middle;*vertical-align: middle;}
+    .ztree li span.button.ico_close{margin-right:2px; background-position:-110px 0; vertical-align:middle; *vertical-align:middle;}
+    .ztree li span.button.ico_docu{margin-right:2px; background-position:-110px -32px; vertical-align:middle; *vertical-align:middle;}
+    .ztree li span.button.edit {margin-right:2px; background-position:-110px -48px; vertical-align:middle; *vertical-align:middle;}
+    .ztree li span.button.remove {margin-right:2px; background-position:-110px -64px; vertical-align:middle; *vertical-align:middle;}
+    .ztree li a.curSelectedNode { height: 22px;}
+    #qb-quickLink a{color:#3f3f3f}
+    #qb-quickLink a:hover{color:#15c}
+    
+</style>
+<div class="qb-cont">
+    <input type="hidden" id="type" value="">
+    <span class="qb-cbtn" title="关闭"></span>
+    <div id="qb-loading" class="qbblock">
+        <div class="cs-t1" style="margin-bottom: 20px;">加载中</div>
+        <img src="./佰腾专利检索系统 – 专利检索，还是佰腾的好！_files/loading-b.gif" style="width:48px;height: 48px;float:left;margin-top:20px;" alt="加载中...">
+        <div class="cs-ul clearfix" style="float:left;width:120px;padding-left:10px; font-size: 12px;margin-left:20px;">
+            <p style="display: block;">加载中...</p>
+            <p style="display: block;">稍等一下,</p>
+            <p style="display: block;">马上就好了~</p>
+        </div>
+    </div>
+    <div id="qb-needLogin" class="qbblock">
+        <div class="cs-t1" style="margin-bottom: 20px;">请先登录</div>
+        <img src="./佰腾专利检索系统 – 专利检索，还是佰腾的好！_files/baiten-baby.png" style="width:48px;height: 65px;float:left;margin-top: 10px;" alt="请先登录">
+        <div class="cs-ul clearfix" style="float:left;width:120px;padding-left:10px;font-size:12px;">
+            <p style="color:coral;font-weight: bold;">对不起!</p><p>获取不到您的身份信息,请先 <a id="needlogin" href="http://login.baiten.cn/" style="color: #00bfff;text-decoration: none;">登录一下</a> 吧~</p>
+        </div>
+    </div>
+ <div id="qb-error" class="qbblock">
+        <div class="cs-t1" style="margin-bottom: 20px;">出错了!</div>
+        <img src="./佰腾专利检索系统 – 专利检索，还是佰腾的好！_files/baiten-baby.png" style="width:48px;height: 64px;float:left;margin-top: 10px;" alt="请先登录">
+        <div class="cs-ul clearfix" style="float:left;width:120px;padding-left:10px;font-size:12px;">
+            <p style="color:coral;font-weight: bold;">对不起，出错了！</p><p>请尝试<a href="http://so.baiten.cn/#" style="color: #00bfff;text-decoration: none;">刷新一下</a> </p>
+            <p>也可以<a style="color: #00bfff;text-decoration: none;">联系我们</a></p>
+        </div>
+    </div>
+    <div id="qb-quickLink" loaded="" class="qbblock">
+        <div class="cs-t1">快捷入口</div>
+        
+        <ul class="cs-ul clearfix">
+            
+            <li style="background:none;padding-left:5px;width:150px;" title="提供检索语法的帮助说明"><a href="http://so.baiten.cn/SearchHelp.html" target="_blank" style="font-weight: bold;">检索语法帮助</a></li>
+        </ul>
+        <div id="edb" class="cs-t2 dn edb">企业库</div>
+        <ul class="cs-ul clearfix edb dn">
+
+            
+        </ul>
+        <div id="idb" class="cs-t2 dn idb">产业库</div>
+        <ul class="cs-ul clearfix dn idb">
+
+           
+        </ul>
+       <div id="logDbLink" class="cs-t2 dn"> </div>
+        <ul class=" dn" style="margin:30px 20px; color:#3f3f3f;">
+            <li><a id="edbLink" href="" style="color:#00bfff;font-size: 14px;font-weight: 800;margin:0 4px;">登录</a>以后查看您的数据库</li>
+        </ul>
+    </div>
+    <div id="qb-cusService" loaded="" class="qbblock">
+        <div class="cs-t1">联系客服</div>
+        <ul class="cs-ul clearfix">
+            <li style="background-position: 0 0"><a href="http://wpa.b.qq.com/cgi/wpa.php?ln=1&key=XzkzODAwNDA3MF8yNDY0NjRfNDAwOTk2NDQwMF8yXw" target="_blank" title="QQ联系">在线联系</a></li>
+            <li style="background-position: 0 -41px"><a href="http://shang.qq.com/wpa/qunwpa?idkey=7b0bd875ab4a700a86f20e2834f68ef8af8c10a5b345b55463a008ebe0027cc4" target="_blank" title="点击加入交流QQ群">检索交流群</a></li>
+            <li style="background-position: 0 -82px">400-881-7780</li>
+        </ul>
+        <div class="cs-tip">(周一至周五 8:30至17:00)</div>
+        <div class="cs-t1" style="margin-top:40px;">论坛精华</div>
+       <script type="text/javascript" src="./佰腾专利检索系统 – 专利检索，还是佰腾的好！_files/api.php" charset="GB2312"></script><div class="module cl xld"><dl class="cl">
+	<dd class="m"><a href="http://bbs.baiten.cn/forum.php?mod=viewthread&tid=17253" target="_blank"><img src="./佰腾专利检索系统 – 专利检索，还是佰腾的好！_files/9a9a8679d6c7e0a8fb8174b8b0174278.jpg" width="200" height="200" alt="专利巴巴玩转数据——专利授权统计周报第1期"></a></dd>
+	<dt><em class="y xg1 xw0"><a href="http://bbs.baiten.cn/home.php?mod=space&uid=1" target="_blank">admin</a></em><a href="http://bbs.baiten.cn/forum.php?mod=viewthread&tid=17253" title="专利巴巴玩转数据——专利授权统计周报第1期" target="_blank">专利巴巴玩转数据——专利授权统计周报第1</a></dt>
+	<dd>
+一、本周中国授权总体概况2015年12月2日中国专利授权数据共48219
+</dd>
+</dl><dl class="cl">
+	<dd class="m"><a href="http://bbs.baiten.cn/forum.php?mod=viewthread&tid=17130" target="_blank"><img src="./佰腾专利检索系统 – 专利检索，还是佰腾的好！_files/16bf96879359248a63160a30d144a05c.jpg" width="200" height="200" alt="新版专利管家，让专利不再“受伤”"></a></dd>
+	<dt><em class="y xg1 xw0"><a href="http://bbs.baiten.cn/home.php?mod=space&uid=1" target="_blank">admin</a></em><a href="http://bbs.baiten.cn/forum.php?mod=viewthread&tid=17130" title="新版专利管家，让专利不再“受伤”" target="_blank">新版专利管家，让专利不再“受伤”</a></dt>
+	<dd>
+失效专利，几乎每天都会出现！知识产权管理部门的专家告诉我
+</dd>
+</dl><dl class="cl">
+	<dd class="m"><a href="http://bbs.baiten.cn/forum.php?mod=viewthread&tid=17094" target="_blank"><img src="./佰腾专利检索系统 – 专利检索，还是佰腾的好！_files/2196b5f688e3fca73ca17d181726bc59.jpg" width="200" height="200" alt="【佰腾早知道】手机专利已成为全球市场决胜关键"></a></dd>
+	<dt><em class="y xg1 xw0"><a href="http://bbs.baiten.cn/home.php?mod=space&uid=1" target="_blank">admin</a></em><a href="http://bbs.baiten.cn/forum.php?mod=viewthread&tid=17094" title="【佰腾早知道】手机专利已成为全球市场决胜关键" target="_blank">【佰腾早知道】手机专利已成为全球市场决胜</a></dt>
+	<dd>
+近两年，不管从手机市场的总体市场份额，还是手机硬件参数的发展
+</dd>
+</dl><dl class="cl">
+	<dd class="m"><a href="http://bbs.baiten.cn/forum.php?mod=viewthread&tid=17081" target="_blank"><img src="./佰腾专利检索系统 – 专利检索，还是佰腾的好！_files/32e462cce9590ef98aed4ebbec3a99f1.jpg" width="200" height="200" alt="对话专利巴巴：敢于做第一个吃螃蟹的“人”"></a></dd>
+	<dt><em class="y xg1 xw0"><a href="http://bbs.baiten.cn/home.php?mod=space&uid=1" target="_blank">admin</a></em><a href="http://bbs.baiten.cn/forum.php?mod=viewthread&tid=17081" title="对话专利巴巴：敢于做第一个吃螃蟹的“人”" target="_blank">对话专利巴巴：敢于做第一个吃螃蟹的“人”</a></dt>
+	<dd>
+当互联网风暴远未波及知识产权领域，业内仍是一副风平浪静的“太
+</dd>
+</dl><dl class="cl">
+	<dd class="m"><a href="http://bbs.baiten.cn/forum.php?mod=viewthread&tid=17068" target="_blank"><img src="./佰腾专利检索系统 – 专利检索，还是佰腾的好！_files/9d91d006ea6c8f06b984cd5dffe39e5f.jpg" width="200" height="200" alt="佰腾科技一周新闻盘点第5期（11月23日-11月29日）"></a></dd>
+	<dt><em class="y xg1 xw0"><a href="http://bbs.baiten.cn/home.php?mod=space&uid=1" target="_blank">admin</a></em><a href="http://bbs.baiten.cn/forum.php?mod=viewthread&tid=17068" title="佰腾科技一周新闻盘点第5期（11月23日-11月29日）" target="_blank">佰腾科技一周新闻盘点第5期（11月23日-11月</a></dt>
+	<dd>
+战推项目调研、贯标项目辅导等工作开展
+
+上周，江苏佰腾科技有
+</dd>
+</dl></div>
+        <a href="http://bbs.baiten.cn/forum.php" target="_blank" class="qb-moretip">查看更多论坛的帖子</a>
+
+    </div>
+    
+    <div id="qb-messageCenter" loaded="" class="qbblock">
+        <div class="cs-t1">消息中心</div>
+        <div class="nomeassage" style="color: #5c5c5c;display: none;"><p>亲爱的用户，</p>您还没有未读消息！</div>
+        <div class="module cl xld dn">
+            
+        </div>
+        <a href="http://i.baiten.cn//Message/InboxMessage" target="_blank" class="qb-moretip">查看我的收件箱</a>
+
+    </div>
+
+    <div id="qb-collection" loaded="" class="qbblock">
+        <div class="cs-t1">我的收藏</div>
+        <div style="overflow-y: scroll;position: relative;">
+            <ul id="qb-treeDemo1" class="ztree">
+                 
+            </ul>
+        </div>
+
+    </div>
+    <div id="qb-tagging" loaded="" class="qbblock">
+        <div class="cs-t1">我的标注</div>
+        <div style="overflow-y: scroll;position: relative;">
+
+            <ul id="qb-treeDemo2" class="ztree">
+                 
+            </ul>
+        </div>
+
+    </div>
+
+    <div id="qb-feedBack" loaded="" class="qbblock">
+
+        <div class="cs-t1">在线反馈</div>
+        <div class="feedback">
+            <label style="color: #5c5c5c;">感谢您使用佰腾网，您的反馈是对我们最大的鼓励和支持！</label>
+            <div style="margin-top: 20px;color: #5c5c5c;"><span style="font-weight: bold;"> 标题：</span><input id="qb-title" maxlength="40"></div>
+            <div style="position: relative;color: #5c5c5c;"><span style="font-weight: bold; margin-top:20px;">内容：</span>
+                <textarea id="qb-ta" rows="" cols="" maxlength="500" onkeyup="this.value = this.value.substring(0,500)"></textarea>
+                <p id="qb-taTip" style="color:#aaa;position: absolute;top:30px;left: 14px;width:140px;display: inline-block;">亲爱的佰腾用户，请在这里直接填写您遇到的问题或者意见建议，您的意见非常重要，是佰腾前进的动力(请保持在500字以内)</p>
+            </div>
+            <input class="qb-btn" type="button" value="确认提交"><input class="qb-clr" type="button" value="清除">
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+
+    seajs.use(['jquery', 'zTreeInit', 'easing'], function ($) {
+        $(function () {
+            //动画效果
+            $.extend($.easing, {
+                def: "easeOutQuad",
+                swing: function (c, a, b, d, e) {
+                    return $.easing[$.easing.def](c, a, b, d, e);
+                },
+                easeOutBounce: function (c, a, b, d, e) {
+                    return (a /= e) < 1 / 2.75 ? d * 7.5625 * a * a + b : a < 2 / 2.75 ? d * (7.5625 * (a -= 1.5 / 2.75) * a + 0.75) + b : a < 2.5 / 2.75 ? d * (7.5625 * (a -= 2.25 / 2.75) * a + 0.9375) + b : d * (7.5625 * (a -= 2.625 / 2.75) * a + 0.984375) + b;
+                }
+            });
+            $(".quick-barBG").offset().top = 0;
+            $(".quick-barBG").offset().bottom = 0;
+            $("#qb-totop").click(function () {
+                $("html,body").animate({ scrollTop: "0px" }, 200);
+            });
+            $(".qb-clr").click(function () {
+                $("#qb-title").val("");
+                $("#qb-ta").val("");
+                $("#qb-taTip").show();
+            });
+            $("#qb-taTip").click(function () {
+                $(this).hide();
+                $("#qb-ta").focus();
+            });
+            $("#qb-ta").focus(function () {
+                $("#qb-taTip").hide();
+            });
+
+            $(document).bind('click', function (e) {
+                if (!$(e.target).hasClass("qb-tip-box") && $(".qb-cont").offset().left - $(window).width() < 0) {
+                    if (($(window).width() - e.pageX) > 256) {
+                        qbhide();
+                    } else {
+                    }
+                    ;
+                }
+            });
+
+            $("#qb-scOut").click(function () {
+                var ysv = $(window).height() - 20;
+                if (ysv <= 580) {
+                    ysv = 580;
+                }
+
+                if ($(".quick-barBG").offset().top <= 0) {
+                    if ($(".quick-barBG").offset().right != 0) {
+                        $(".qb-cont").animate({ right: "-220px" }, 300);
+                    }
+                    $(".quick-barBG").animate({ right: "0px" }, {
+                        queue: true,
+                        duration: 300,
+                        complete: function () {
+                            $(".quick-barBG").animate({ bottom: ysv + "px" }, 300, false);
+                            $(".quick-barBG").animate({ top: -ysv + "px" }, 300, false);
+                            $("#qb-scIn").attr("title", "展开");
+                        }
+                    });
+                } else {
+                    $(".quick-barBG").animate({ bottom: "0px" }, 300, false);
+                    $(".quick-barBG").animate({ top: "0px" }, 300, false);
+                    $("#qb-scOut").attr("title", "收起");
+
+                }
+            });
+            $("#qb-scIn").click(function () {
+                var ysv = $(window).height() - 20;
+                if (ysv <= 580) {
+                    ysv = 580;
+                }
+
+                if ($(".quick-barBG").offset().top >= 0) {
+                    if ($(".quick-barBG").offset().right != 0) {
+                        $(".qb-cont").animate({ right: "-220px" }, 300);
+                    }
+                    $(".quick-barBG").animate({ right: "0px" }, {
+                        queue: true,
+                        duration: 300,
+                        complete: function () {
+                            $(".quick-barBG").animate({ top: ysv + "px" }, 300, false);
+                            $(".quick-barBG").animate({ bottom: -ysv + "px" }, 300, false);
+                            $("#qb-scOut").attr("title", "展开");
+
+                        }
+                    });
+                } else {
+                    $(".quick-barBG").animate({ top: "0px" }, 300, false);
+                    $(".quick-barBG").animate({ bottom: "0px" }, 300, false);
+                    $("#qb-scIn").attr("title", "收起");
+
+                }
+            });
+            $("#qb-ta").blur(function () {
+                if ($(this).val().length <= 0) {
+                    $("#qb-taTip").show();
+                }
+
+            });
+            $(".qb-cbtn").click(function () {
+                qbhide();
+            });
+            $("#qb-ql").click(function () {
+                if ($("#qb-quickLink").attr("loaded") == "true") {
+                    qbshow($(this).attr("tid"));
+                    return;
+                }
+                var curl = window.location.href;
+                $.get(encodeURI("/PublicParts/QuickBoxJson?blockName=" + "qb-quickLink" + "&currentdate=" + new Date().getUTCMilliseconds().toString()), function (data) {
+
+                    var json = eval(data);
+
+                    if (json.result == "NotLogin") {
+                        $("#logDbLink").show();
+                        $("#logDbLink").next().show();
+                        $("#edbLink").attr("href", json.dataStr + curl);
+
+                        return;
+                    }
+                    if (json.result == "error") {
+                        return;
+                    }
+                    if (json.dataStr == "") {
+                        var edbHtm = "<li style='background:none;padding-left:5px;width:150px;'><a class='txtcut' href='http://i.baiten.cn/_tourist/My_Apps_Products/141c2451-9ec3-cd57-3b17-08d12664c072" + "' target='_blank' title='" + "企业专利数据库" +
+                            "'>" + "企业个性化专利数据" + "</a></li>";
+                        $("#edb").next().append(edbHtm);
+                        $(".edb").show();
+                        $("#qb-quickLink").attr("loaded", "true");
+                        return;
+                    }
+                    var htmlDate1 = json.dataStr;
+
+                    var mesTemp1 = $("#edb").next();
+                    var mesTemp2 = $("#idb").next();
+                    var iflag = false;
+                    var eflag = false;
+                    $.each(htmlDate1, function (n, val) {
+
+                        var htmlStr1 = "<li style='background:none;padding-left:5px;width:150px;'><a class='txtcut' href='" + val.link + "' target='_blank' title='" + val.name +
+                            "'>" + val.name + "</a></li>";
+                        if (val.type == "edb") {
+                            eflag = true;
+                            mesTemp1.append(htmlStr1);
+                        }
+                        if (val.type == "idb") {
+                            iflag = true;
+                            mesTemp2.append(htmlStr1);
+                        }
+
+                    });
+                    if (eflag) {
+                        $(".edb").show();
+
+                    } else {
+                    }
+                    if (iflag) {
+                        $(".idb").show();
+                    }
+                    $("#qb-quickLink").attr("loaded", "true");
+                });
+
+
+                qbshow("qb-quickLink");
+            });
+            $(".qb-btn").click(function () {
+                var title = $("#qb-title").val();
+                var content = $("#qb-ta").val();
+                title = escape(title);
+                content = escape(content);
+                $.ajax({
+                    url: encodeURI("/PublicParts/FeedBack?title=" + title + "&content=" + content + "&currentdate=" + new Date().getUTCMilliseconds().toString()),
+                    async: false,
+                    success: function (data) {
+                        if (data == "true") {
+                            qbhide();
+
+                            alert("您的反馈内容已经发送至我们的邮箱,谢谢您对我们工作的的支持!");
+                            $("#qb-title").val("");
+                            $("#qb-ta").val("");
+                            $("#qb-taTip").show();
+                            return;
+                        }
+                        if (data == "notlogin") {
+                            qbshow("qb-needlogin");
+                            return;
+                        }
+                        alert(data);
+                    }
+                });
+            });
+            $(".qb-logo").click(function () {
+                var id = $(this).attr("tid");
+                var name = $(this).next().find(".qb-tip-box").text();
+                var result = "true";
+                switch (id) {
+                    case "qb-totop":
+                        {
+                            result = "noAct";
+                            break;
+                        }
+                    case "qb-cusService":
+                        {
+                            qbshow(id);
+                            break;
+                        }
+                        //                    case "qb-feedBack":
+                        //                        {
+                        //                            qbshow(id);
+                        //                            break;
+                        //                        }
+                    default:
+                        {
+
+                            if ($("#" + id).attr("loaded") != "") {
+
+                                result = "showAct";
+                                break;
+                            }
+                            qbshow("qb-loading");
+                            $("#qb-loading").find(".cs-t1").text(name);
+                            var curl = window.location.href;
+                            var t = new Date().getUTCMilliseconds().toString();
+                            $.get(encodeURI("/PublicParts/QuickBoxJson?blockName=" + id + "&currentdate=" + t), function (data) {
+
+                                var json = eval(data);
+
+                                if (json.result == "NotLogin") {
+                                    qbshow("qb-needLogin");
+                                    $("#needlogin").attr("href", json.dataStr + encodeURIComponent(curl));
+                                    $("#" + id).attr("loaded", "notlogin");
+                                    result = "notlogin";
+                                    return;
+                                } else {
+                                    if (json.result == "error") {
+                                        result = "error";
+                                        $("#" + id).attr("loaded", "error");
+                                        return;
+
+                                    }
+                                    if (id == "qb-feedBack") {
+                                        qbshow(id);
+                                        $("#" + id).attr("loaded", "true");
+                                        return;
+                                    }
+                                    if (json.dataStr == "") {
+                                        if (id == "qb-messageCenter") {
+                                            $(".nomeassage").show();
+
+                                        }
+                                    }
+                                    if (id == "qb-messageCenter") {
+                                        var htmlDate2 = json.dataStr;
+                                        var mesTemp2 = $("#qb-messageCenter").find(".module");
+                                        $.each(htmlDate2, function (n, val) {
+
+                                            var htmlStr2 = "<dl class='cl'><dt><a";
+                                            if (val.isRead == "false") {
+                                                htmlStr2 += " style='font-weight:bold'";
+                                            }
+                                            htmlStr2 += " href='" + val.link + "' target='_blank'  title='" + val.name +
+                                                "'>" + val.name + "</a></dt></dl>";
+                                            mesTemp2.append(htmlStr2);
+                                        });
+                                        mesTemp2.show();
+                                    }
+                                    if (id == "qb-collection") {
+                                        $.fn.zTree.init($("#qb-treeDemo1"), setting, json.dataStr);
+                                        var ind = 1;
+                                        $("#qb-treeDemo1").find("a").each(function () {
+                                            var turl = $(this).attr("href");
+                                            $(this).attr("href", turl + ind + "_a");
+                                            ind++;
+                                        });
+                                        qbshow(id);
+                                        $("#" + id).attr("loaded", "true");
+                                    }
+                                    if (id == "qb-tagging") {
+                                        if (json.result == "needEdb") {
+                                            alert(json.dataStr);
+                                            qbhide();
+                                            qbshow(id);
+                                            $("#" + id).attr("loaded", "true");
+                                            return;
+                                        }
+                                        $.fn.zTree.init($("#qb-treeDemo2"), setting, json.dataStr);
+                                    }
+                                    qbshow(id);
+                                    $("#" + id).attr("loaded", "true");
+                                    return;
+                                }
+                            });
+                        }
+                }
+                if (result == "noAct") {
+                    return;
+                }
+                if (result == "showAct") {
+                    if ($("#" + id).attr("loaded") == "true")
+                        qbshow(id);
+                    if ($("#" + id).attr("loaded") == "notlogin")
+                        qbshow("qb-needLogin");
+                    if ($("#" + id).attr("loaded") == "error")
+                        qbshow("error");
+                    return;
+                }
+                if (result == "true") {
+
+                } else {
+                    if (result == "notlogin") {
+                        qbshow("qb-needLogin");
+                    } else {
+                        qbshow("qb-error");
+                    }
+                }
+            });
+
+            function qbhide() {
+                $(".qb-cont").animate({ right: "-220px" }, 200);
+                $(".quick-barBG").animate({ right: "0px" }, 200);
+            }
+
+            function qbshow(name) {
+                $(".qb-cont .qbblock").hide();
+                $(".qb-cont #" + name).fadeIn(200);
+                $(".qb-cont").animate({ right: "0px" }, 200);
+                $(".quick-barBG").animate({ right: "220px" }, 200);
+            }
+
+            $(".qb-tip-box").click(function () {
+                $(this).parent().prev().click();
+            });
+            $(".qb-tip").hover(function () { }, function () {
+                var ev = window.event || arguments.callee.caller.arguments[0];
+                //console.log(ev);
+                if (window.event) {
+                    if (!$(ev.toElement).hasClass("qb-logo")) {
+                        qbblur($(this).prev(), -90);
+                    }
+                } else {
+                    if (!$(ev.relatedTarget).hasClass("qb-logo")) {
+                        qbblur($(this).prev(), -90);
+                    }
+                }
+
+            });
+
+            $(".qb-logo").hover(function () { qbhover($(this), -100, -80); }, function () {
+                var ev = window.event || arguments.callee.caller.arguments[0];
+                //console.log(relatedTarget);
+                if (window.event) {
+
+                    if ($(ev.toElement).hasClass("qb-tip-box") || $(ev.toElement).hasClass("qb-tip-ar")) {
+
+                    } else {
+                        qbblur($(this), -90);
+                    }
+                } else {
+
+                    if ($(ev.relatedTarget).hasClass("qb-tip-box") || $(ev.relatedTarget).hasClass("qb-tip-ar")) {
+
+                    } else {
+                        qbblur($(this), -90);
+                    }
+                }
+            });
+            $(".qbq-logo").hover(function () { qbhover($(this), -190, -160); }, function () { qbblur($(this), -180); });
+            $(".qb-in").hover(function () { qbhover($(this), -167, -135); }, function () {
+                var ev = window.event || arguments.callee.caller.arguments[0];
+                if (window.event) {
+                    if ($(ev.toElement).hasClass("qb-tip-box") || $(ev.toElement).hasClass("qb-tip-ar")) {
+
+                    } else {
+                        qbblur($(this), -157);
+                    }
+                } else {
+                    if ($(ev.relatedTarget).hasClass("qb-tip-box") || $(ev.relatedTarget).hasClass("qb-tip-ar")) {
+
+                    } else {
+                        qbblur($(this), -157);
+                    }
+                }
+            });
+            function qbhover(ele, inpx, outpx) {
+                ele.find("label").attr("style", "background-position-x: -54px;");
+                ele.find("span").attr("style", "background-color:red");
+                var ambox = ele.next();
+                ambox.css({ "left": inpx + 'px', 'opacity': '0.2' });
+                ambox.show();
+                ambox.animate({ left: outpx, opacity: 1 }, { queue: false, duration: 400, easing: 'easeOutBounce' });
+            }
+            function qbblur(ele, outpx) {
+                ele.find("label").attr("style", "");
+                ele.find("span").attr("style", "background-color:#e15a2d");
+                ele.next().animate({ left: outpx, opacity: 0 }, {
+                    queue: false,
+                    duration: 300,
+                    complete: function () {
+                        $(this).hide();
+                    }
+                });
+            }
+
+
+            //treeNodeSetting
+            var setting = {
+                view: {
+                    selectedMulti: false
+                },
+                edit: {
+                    enable: false
+                },
+                data: {
+                    simpleData: {
+                        enable: true
+                    }
+                }
+            };
+        });
+    });
+</script>
+
+
+        <div class="section-turn next" style="right:40px;"></div>
+    </div>
+    
+    <script type="text/javascript" src="./佰腾专利检索系统 – 专利检索，还是佰腾的好！_files/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="./佰腾专利检索系统 – 专利检索，还是佰腾的好！_files/jquery.validate.js"></script>
+    <script src="./佰腾专利检索系统 – 专利检索，还是佰腾的好！_files/index.js"></script>
+
+    <script src="./佰腾专利检索系统 – 专利检索，还是佰腾的好！_files/postionhack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+         
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?dbce649a0e590f73f6cae62cae7d91b0";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+//        seajs.use(['/Scripts/AppScripts/baitenBaby.js']);
+        $.getScript("http://uc.baiten.cn/buildSession.js", function () { });
+        $("#logout").bind("click", function () {
+            _URL = encodeURIComponent(location.href);
+            $.post("/common/Logout");
+            $.getScript("http://uc.baiten.cn/logout.js", function () { });
+        });
+        $("#login").bind("click", function () {
+            var curl = encodeURIComponent(location.href);
+            location.replace("http://login.baiten.cn?rurl=" + curl);
+        });
+        $(function () {
+            $("[name='pc_isChinese']").val("1");
+            $("[name='pc_in']").val("7");
+            $("#CNpclass").find(":checkbox").prop("checked", true);
+            $("[name='cs_keyword']").val("0");
+            $("[name='searchType']").val("0");
+        });
+        
+        //广告日志记录
+        $(function() {
+            $("#scroImg a").click(function() {
+                var homeseachurl = "http://" + location.host + "/asyn/sendactionlog" + "?type=2" + "&at=21" +"&opdetail=" + $(this).attr('href')+"| 广告位:" +$(this).attr('adp');
+                $.ajax({
+                    type: "POST",
+                    url: encodeURI(homeseachurl)
+                });
+            });
+            $("#toOldVersion").click(function() {
+                var homeseachurl = "http://" + location.host + "/asyn/sendactionlog" + "?type=2" + "&at=20" +"&opdetail=" + "返回旧版";
+                //Console.log(homeseachurl);
+                $.ajax({
+                    type: "POST",
+                    url: encodeURI(homeseachurl)
+                });
+            });
+        });
+        //广告日志记录
+
+
+            // ↓↓图片轮播↓↓
+            var timer = null;
+             var imgcount=2;
+            var scro = $("#scroImg");
+            var cindex = scro.attr("cindex");
+            scroInit();
+            $("#scroImg").hover(function(){
+                clearInterval(timer);
+            } ,function(){
+                clearInterval(timer);
+                timer = setInterval(scrollNext, 4000);
+            });
+            $("#prev").click(function(){
+                scrollPrev();
+            });
+            $("#next").click(function(){
+                scrollNext();
+            });
+
+            function scroInit()
+            {
+                if (imgcount <= 1)
+                {
+                    clearInterval(timer);
+                    return;
+                }
+                cindex = 0;
+                scro.attr("cindex", 0);
+                scrollImg(0);
+                clearInterval(timer);
+                timer = setInterval(scrollNext, 4000);
+            }
+            function imgEqShow(index){
+            $(".imgUl").animate({left:'-' + (index*670) + "px"});
+            }
+            function scrollImg(index)
+            {
+                scro.attr("cindex", index);
+                imgEqShow(index);
+            }
+            function scrollNext ()
+            {
+                cindex = parseInt(scro.attr("cindex"));
+                if (cindex == imgcount - 1)
+                {
+                    cindex = 0;
+                }
+                else
+                {
+                    cindex = cindex + 1;
+                }
+                scrollImg(cindex);
+
+            }
+            function scrollPrev ()
+            {
+                cindex = parseInt(scro.attr("cindex"));
+                if (cindex == 0)
+                {
+                    cindex = imgcount; 
+                }
+                else
+                {
+                    cindex = cindex - 1;
+                }
+                scrollImg(cindex);
+            }
+         
+         
+        
+
+     
+    </script>
+ 
+
+        <script>
+            //引入jq
+            $(function () {
+                var winWidth, winHeight, hTemp, wTemp, imgWidth, imgHeight, topVal, leftVal;
+                //宽高比
+                var thebl = 600 / 1300;
+                //链接地址
+                var link = "http://www.zlbaba.com/zldg";
+                //图片地址
+                var imgSrc = "/Content/Styles/Default/img/ads_alert_1016.jpg";
+                // 显示时间，最小宽度，最大宽度，图片占比
+                var time = 10, minw = 320, maxw = 1300, proportion = 0.7;
+                //cookie 
+                var cookiename = "adcookie";
+                //设置过期时间
+                var cookieTime = 1;
+
+                var htmlStr = "<div class=\"xyp_adBg\" style=\""
+		+ "display:none;width:100%;height:100%;z-index:10000;position:fixed;top: 0px;left: 0px;overflow:hidden;\"><a href=\""
+		+ link
+		+ "\" style=\"overflow:hidden;position:relative; display:inline-block;\"  target=\"_blank\">"
+		+ "<span style=\"position:absolute;width:36px;height:20;line-height:20px;font-size:12px;color:#3399ff;cursor:pointer;top:4px;right:6px;\">[关闭]</span><img src=\""
+		+ imgSrc
+		+ "\"></img></a></div>";
+                $("body").append(htmlStr);
+                getWaH();
+                showAd();
+                $(window).resize(function () {
+                    getWaH();
+                });
+                function showAd() {
+                    if (isShow()) {
+                        $(".xyp_adBg").eq(0).fadeIn();
+                        $(".xyp_adBg").eq(0).find("span").click(function () {
+                            $(".xyp_adBg").eq(0).fadeOut();
+                            cookieSet();
+                            return false;
+                        });
+                        setTimeout(function () {
+                            $(".xyp_adBg").eq(0).fadeOut();
+                            cookieSet();
+                        }, time * 1000);
+                    }
+                }
+                function isShow() {
+                    var reg = new RegExp("(^| )" + cookiename + "=([^;]*)(;|$)");
+                    if (document.cookie.match(reg)) {
+                        if (unescape(document.cookie.match(reg)[2] == "loaded")) {
+                            return false;
+                        }
+                    }
+                    return true;
+                }
+                function cookieSet() {
+                    var Days = cookieTime;
+                    var exp = new Date();
+                    exp.setTime(exp.getTime() + Days * 24 * 60 * 60 * 1000);
+                    document.cookie = cookiename + "=loaded" + ";expires=" + exp.toGMTString();
+                }
+                function getWaH() {
+                    if (window.innerWidth)
+                        winWidth = window.innerWidth;
+                    else if ((document.body) && (document.body.clientWidth))
+                        winWidth = document.body.clientWidth;
+                    if (window.innerHeight)
+                        winHeight = window.innerHeight;
+                    else if ((document.body) && (document.body.clientHeight))
+                        winHeight = document.body.clientHeight;
+                    if (document.documentElement && document.documentElement.clientHeight && document.documentElement.clientWidth) {
+                        winHeight = document.documentElement.clientHeight;
+                        winWidth = document.documentElement.clientWidth;
+                    }
+                    if (winWidth * thebl >= winHeight) {
+                        wTemp = winHeight / thebl;
+                        hTemp = winHeight;
+                    } else {
+                        wTemp = winWidth
+                        hTemp = winWidth * thebl;
+                    }
+                    if (wTemp >= maxw / proportion) {
+                        imgWidth = maxw;
+                    } else if (wTemp < minw / proportion) {
+                        imgWidth = minw;
+                    } else {
+                        imgWidth = wTemp * proportion
+                    }
+                    var adblock = $(".xyp_adBg").eq(0);
+                    imgHeight = imgWidth * thebl;
+                    topVal = (winHeight - imgHeight) / 2;
+                    leftVal = (winWidth - imgWidth) / 2;
+                    if (topVal <= 0)
+                    { topVal = 0 }
+                    if (leftVal <= 0)
+                    { leftVal = 0 }
+                    adblock.find("img").attr("width", imgWidth);
+                    adblock.find("img").attr("height", imgHeight);
+                    adblock.find("a").css("margin-top", topVal);
+                    adblock.find("a").css("width", imgWidth);
+                    adblock.find("a").css("height", imgHeight);
+                    adblock.find("a").css("margin-left", leftVal);
+                    adblock.find("a").css("margin-top", topVal);
+                }
+
+            });
+</script>
+    
+    
+    
+    
+
+
+
+<div class="xyp_adBg" style="display:none;width:100%;height:100%;z-index:10000;position:fixed;top: 0px;left: 0px;overflow:hidden;"><a href="http://www.zlbaba.com/zldg" style="overflow: hidden; position: relative; display: inline-block; margin-top: 438.761538461538px; width: 945.7px; height: 436.476923076923px; margin-left: 202.65px;" target="_blank"><span style="position:absolute;width:36px;height:20;line-height:20px;font-size:12px;color:#3399ff;cursor:pointer;top:4px;right:6px;">[关闭]</span><img src="./佰腾专利检索系统 – 专利检索，还是佰腾的好！_files/ads_alert_1016.jpg" width="945.6999999999999" height="436.4769230769231"></a></div></body></html>
