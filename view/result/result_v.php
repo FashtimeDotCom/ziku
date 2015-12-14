@@ -1,143 +1,3 @@
-
-<div id="srl_h">
-    <ul id="srl-h-nav" class="f14 clearfix">
-        <li class="fl">
-            <a href="http://www.baiten.cn/" target="_blank">
-                佰腾首页
-            </a>
-        </li>
-        <li class="fl">
-            <a href="/" target="_blank">
-                专利检索
-            </a>
-        </li>
-        <li class="fl">
-            <a href="http://www.zlbaba.com/biz_patapply_patform_inpat" target="_blank">
-                专利申请
-            </a>
-        </li>
-        <li class="fl">
-            <a href="http://www.baiten.cn/Product/Platform" target="_blank">
-                创新平台
-            </a>
-        </li>
-        <li class="fl">
-            <a href="http://www.jsxiaoguo.com/" target="_blank">
-                校果网
-            </a>
-        </li>
-        <li class="fl">
-            <a href="http://idea.baiten.cn/" target="_blank">
-                创意图库
-            </a>
-        </li>
-        <li class="fl">
-            <a class="froum" href="http://bbs.baiten.cn/" target="_blank">
-                知识产权论坛
-            </a>
-        </li>
-        <li class="fl more">
-            <a href="http://i.baiten.cn/_tourist/My_App_Index" target="_blank">
-                更多
-            </a>
-        </li>
-        <li class="fr user" style="padding-right:60px;">
-            欢迎您，请
-            <a href="#" id="login">
-                登录
-            </a>
-            或
-            <a href="http://register.baiten.cn/">
-                免费注册
-            </a>
-        </li>
-    </ul>
-    <div id="pd-fullscreen-dialog-bg">
-    </div>
-    <div class="quick-barBG">
-        <a id="qb-scOut" class="qb-scro" style="top:0px;background-position: -19px 0;"
-        title="收起">
-        </a>
-        <div class="quick-bar1 clearfix">
-            <div class="quickBar-logo">
-            </div>
-            <a id="qb-ql" class="qb-in qb-1" tid="qb-quickLink">
-                快捷入口
-            </a>
-            <div class="qb-tip" style="left: -147px;top: -132px;cursor:pointer;">
-                <div class="qb-tip-box" style="width:100px;height:60px;font-size:14px;line-height: 30px;padding:30px 18px;">
-                    企业专利数据库检索语法帮助
-                </div>
-                <div class="qb-tip-ar" style="left: 136px;top: -74px;">
-                </div>
-            </div>
-            <a tid="qb-cusService" class="qb-logo">
-                <label class="qb-2">
-                </label>
-            </a>
-            <div class="qb-tip" style="cursor:pointer;">
-                <div class="qb-tip-box">
-                    联系客服
-                </div>
-                <div class="qb-tip-ar">
-                </div>
-            </div>
-            <a tid="qb-messageCenter" class="qb-logo">
-                <label class="qb-3">
-                </label>
-            </a>
-            <div class="qb-tip" style="cursor:pointer;">
-                <div class="qb-tip-box">
-                    消息中心
-                </div>
-                <div class="qb-tip-ar">
-                </div>
-            </div>
-            <a tid="qb-collection" class="qb-logo">
-                <label class="qb-6">
-                </label>
-            </a>
-            <div class="qb-tip" style="cursor:pointer;">
-                <div class="qb-tip-box">
-                    我的收藏
-                </div>
-                <div class="qb-tip-ar">
-                </div>
-            </div>
-        </div>
-        <div class="quick-bar2 clearfix">
-            <a tid="qb-feedBack" class="qb-logo">
-                <label class="qb-10">
-                </label>
-            </a>
-            <div class="qb-tip" style="cursor:pointer;">
-                <div class="qb-tip-box">
-                    在线反馈
-                </div>
-                <div class="qb-tip-ar">
-                </div>
-            </div>
-            <a class="qbq-logo">
-                <label class="qb-11">
-                </label>
-            </a>
-            <div style="display: none; position: relative;left: -95px;height: 0px;width: 0px;top: -120px;">
-                <!-- <div style="display: inline-block;height: 163px;width: 153px;border-radius: 5px;background: #5c5c5c;color: #ccc;line-height: 40px;text-align: center;padding-top: 10px;">
-                    <img src="/Content/Styles/Default/img/dyh.png" width="129px">
-                </div> -->
-                <div style="position: relative;top: -80px;left: 153px;width: 0;height: 0;border-top: 5px solid transparent;border-left: 5px solid #5c5c5c ;border-bottom: 5px solid transparent;">
-                </div>
-            </div>
-            <a id="qb-totop" tid="qb-totop" class="qb-logo" title="返回顶部">
-                <label class="qb-12">
-                </label>
-            </a>
-        </div>
-        <a id="qb-scIn" class="qb-scro" style="bottom:0px;background-position:11px 0;"
-        title="收起">
-        </a>
-    </div>  
-</div>
 <div id="srl-m-sholder">
     <style>
         .srl-m-s-cclist.cn{ width: 560px;} .srl-m-s-cclist.foreign{ width: 880px;}
@@ -151,11 +11,6 @@
         <form action="<?php e(URL)?>result/index" id="formbox" method="get">
             <div id="srl-m-s" class="fl dn" style="display: block;">
                 <div id="srl-m-sbox" class="clearfix">
-                    <div id="srl-m-s-cp" class="f14 fl" onselectstart="return false;">
-                        中国专利库
-                        <span class="cn">
-                        </span>
-                    </div>
                     <div id="srl-m-s-iholder" class="fl">
                         <input type="text" id="srl-m-s-input" class="f14" name="q" value="<?php e($this->searchText)?>">
                         <div id="srl-m-s-sop">
@@ -192,192 +47,7 @@
                             高级检索
                         </a>
                     </div>
-                </div>
-                <div id="srl-m-s-cpcHolder">
-                    <ul class="srl-m-s-cclist cn bc clearfix " id="CNPatentClass" style="display: block;">
-                        <li class="srl-m-s-ccitem fl clearfix">
-                            <span class="srl-m-s-cb ">
-                                <input type="checkbox" checked="checked" id="c-cbAll">
-                            </span>
-                            <a>
-                                全选
-                            </a>
-                        </li>
-                        <li class="srl-m-s-ccitem fl clearfix">
-                            <span class="srl-m-s-cb ">
-                                <input type="checkbox" checked="checked" value="1">
-                            </span>
-                            <a>
-                                发明专利
-                            </a>
-                        </li>
-                        <li class="srl-m-s-ccitem fl">
-                            <span class="srl-m-s-cb  ">
-                                <input type="checkbox" checked="checked" value="2">
-                            </span>
-                            <a>
-                                实用新型
-                            </a>
-                        </li>
-                        <li class="srl-m-s-ccitem fl">
-                            <span class="srl-m-s-cb ">
-                                <input type="checkbox" checked="checked" value="4">
-                            </span>
-                            <a>
-                                外观设计
-                            </a>
-                        </li>
-                        <li class="srl-m-s-ccitem fl">
-                            <span class="srl-m-s-cb ">
-                                <input type="checkbox" checked="checked" value="8">
-                            </span>
-                            <a>
-                                发明授权专利
-                            </a>
-                        </li>
-                        <li class="srl-m-s-ccitem fl">
-                            <span class="srl-m-s-cb ">
-                                <input type="checkbox" checked="checked" value="16">
-                            </span>
-                            <a>
-                                中国台湾专利
-                            </a>
-                        </li>
-                        <li class="srl-m-s-ccitem fl">
-                            <span class="srl-m-s-cb ">
-                                <input type="checkbox" checked="checked" value="32">
-                            </span>
-                            <a>
-                                香港特区
-                            </a>
-                        </li>
-                    </ul>
-                    <ul class="srl-m-s-cclist foreign bc clearfix                                                                     dn
-                    " id="FPatentClass" style="display: none;">
-                        <li class="srl-m-s-ccitem fl clearfix">
-                            <span class="srl-m-s-cb                                                         uc
-                            ">
-                                <input type="checkbox" id="f-cbAll">
-                            </span>
-                            <a>
-                                全选
-                            </a>
-                        </li>
-                        <li class="srl-m-s-ccitem fl">
-                            <span class="srl-m-s-cb                                                   uc
-                            ">
-                                <input type="checkbox" value="64">
-                            </span>
-                            <a>
-                                美国公开
-                            </a>
-                        </li>
-                        <li class="srl-m-s-ccitem fl">
-                            <span class="srl-m-s-cb                                                   uc
-                            ">
-                                <input type="checkbox" value="128">
-                            </span>
-                            <a>
-                                美国授权
-                            </a>
-                        </li>
-                        <li class="srl-m-s-ccitem fl">
-                            <span class="srl-m-s-cb                                                   uc
-                            ">
-                                <input type="checkbox" value="256">
-                            </span>
-                            <a>
-                                日本
-                            </a>
-                        </li>
-                        <li class="srl-m-s-ccitem fl">
-                            <span class="srl-m-s-cb                                                   uc
-                            ">
-                                <input type="checkbox" value="512">
-                            </span>
-                            <a>
-                                英国
-                            </a>
-                        </li>
-                        <li class="srl-m-s-ccitem fl">
-                            <span class="srl-m-s-cb                                                   uc
-                            ">
-                                <input type="checkbox" value="1024">
-                            </span>
-                            <a>
-                                法国
-                            </a>
-                        </li>
-                        <li class="srl-m-s-ccitem fl">
-                            <span class="srl-m-s-cb                                                   uc
-                            ">
-                                <input type="checkbox" value="2048">
-                            </span>
-                            <a>
-                                德国
-                            </a>
-                        </li>
-                        <li class="srl-m-s-ccitem fl">
-                            <span class="srl-m-s-cb                                                   uc
-                            ">
-                                <input type="checkbox" value="4096">
-                            </span>
-                            <a>
-                                瑞士
-                            </a>
-                        </li>
-                        <li class="srl-m-s-ccitem fl">
-                            <span class="srl-m-s-cb                                                   uc
-                            ">
-                                <input type="checkbox" value="8192">
-                            </span>
-                            <a>
-                                俄罗斯
-                            </a>
-                        </li>
-                        <li class="srl-m-s-ccitem fl">
-                            <span class="srl-m-s-cb                                                   uc
-                            ">
-                                <input type="checkbox" value="16384">
-                            </span>
-                            <a>
-                                PCT组织
-                            </a>
-                        </li>
-                        <li class="srl-m-s-ccitem fl">
-                            <span class="srl-m-s-cb                                                     uc
-                            ">
-                                <input type="checkbox" value="32768">
-                            </span>
-                            <a>
-                                欧专
-                            </a>
-                        </li>
-                        <li class="srl-m-s-ccitem fl">
-                            <span class="srl-m-s-cb                                                     uc
-                            ">
-                                <input type="checkbox" value="65536">
-                            </span>
-                            <a>
-                                韩国
-                            </a>
-                        </li>
-                        <li class="srl-m-s-ccitem fl">
-                            <span class="srl-m-s-cb                                                     uc
-                            ">
-                                <input type="checkbox" value="131072">
-                            </span>
-                            <a>
-                                东南亚
-                            </a>
-                        </li>
-                    </ul>
-                </div>                
-            </div>
-            <div id="dialog" title="友情提醒" style="display:none;">
-                <p class="f16 popError">
-                    至少选择一种专利类型！
-                </p>
+                </div>              
             </div>
         </form>
     </div>
@@ -616,44 +286,15 @@
                     </div>
                 </li>
                 <li id="srl-m-h-l-ay" class="fl">
-                    <span style="width:55px;height: 16px;top: -5px;left: 100px;display: inline-block;position: absolute;background: red;color: #fff;font-size: 12px;text-align:center;line-height:16px;">
-                        有更新
-                    </span>
-                    <div style="position: absolute;top: 0px;left:97px;width: 0;height: 0;border-top: 3px solid transparent;border-right: 3px solid red ;border-bottom: 3px solid transparent;">
-                    </div>
-                    <a href="/PublicParts/Analysis?q=jiu&amp;cn=1&amp;patType=63" id="analysisLink"
+                    <a href="#" id="analysisLink"
                     target="_blank">
                         统计分析
                     </a>
-                    <div id="analysisdialog" title="抱歉，一不小心出错了" style="display:none;" data-loginlimt="10000"
-                    data-analysislimit="5000">
-                        <p class="f14 analysis-limit">
-                            <span>
-                                由于您不是注册用户，无法进行超过
-                                <em>
-                                    5000
-                                </em>
-                                条数据的统计，
-                            </span>
-                            <br>
-                            <span>
-                                点击
-                                <a href="http://register.baiten.cn/">
-                                    注册
-                                </a>
-                                或
-                                <a href="http://login.baiten.cn">
-                                    登录
-                                </a>
-                                ，您将获得更多数据的统计。
-                            </span>
-                        </p>
-                    </div>
                 </li>
                 <li id="srl-m-h-l-r" class="fr">
                     检索结果[
                     <span class="count" id="sop-totalCount">
-                        2813
+                        <?php e($this->count) ?>
                     </span>
                     ]
                     <div id="resultsCount" class="srl-m-h-l-menu">
@@ -743,7 +384,7 @@
             foreach ($this->result as $key => $value) {           
     ?>
         <div class="sm-c clearfix" data-iscnmain="True">
-            <div class="fl sm-c-leftp">
+            <!-- <div class="fl sm-c-leftp">
                 <div class="mbox">
                     <div class="mleft">
                         <span class="mmove" style="display: none; left: 51px; top: 44px;">
@@ -754,7 +395,7 @@
                         src="http://ft.baiten.cn/view/cn_pub/CN201010608795.6/1/86/126" alt="一种通过智能卡开展数字媒体互动业务的方法">
                     </div>
                 </div>
-            </div>
+            </div> -->
             <ul class="sm-c-right fl">
                 <li class="sm-c-r-color">
                     <span class="sm-cb-outer ">
@@ -774,7 +415,7 @@
                     <a class="srl-detail-an result-area">
                         <?php e($value["PubNumber"])?>
                     </a>
-                    <span class="mrl6 lawState-yx result-area">
+                    <span class="mrl6 lawState-yx">
                         <?php e($value["LawState"])?>
                     </span>
                 </li>
@@ -820,15 +461,10 @@
                 <li class="srl-detail-translate-summary dn">
                 </li>
                 <li class="sm-opLink clearfix">
-                    <a class="srl-detail-ft fl" data-id="CN201010608795.6" data-type="63"
-                    data-pages="14" data-index="0" data-al-an="CN201010608795.6" data-actiontype="ft"
-                    data-al-ti="一种通过智能卡开展数字媒体互动业务的方法">
+                    <a class="srl-detail-ft fl">
                         阅读全文
                     </a>
-                    <a class="fl srl-detail-cnGPat" data-cnpub="http://ft.baiten.cn/Download.aspx?type=cn_pub&amp;an=CN201010608795.6"
-                    data_cnina="http://ft.baiten.cn/Download.aspx?type=cn_ina&amp;an=CN201010608795.6"
-                    data-id="CN201010608795.6" data-type="63" data-pages="14" data-index="0"
-                    data-download="true">
+                    <a class="fl srl-detail-cnGPat">
                         全文下载
                     </a>
                     <a class="srl-detail-ls fl" data-id="CN201010608795.6" data-type="63"
@@ -844,103 +480,61 @@
                         信息查询
                     </a>
                 </li>
-            </ul>
-            <div class="mright" style="display: none; left: 335px; top: 183px;">
-                <img preload-src="http://ft.baiten.cn/view/cn_pub/CN201010608795.6/1/961/0"
-                src="http://ft.baiten.cn/view/cn_pub/CN201010608795.6/1/961/0" style="left: -3.55813953488372px; top: -2.0625px;">
-            </div>
+            </ul>           
         </div>
     <?php
         }
     }
     ?>
         <div class="paging f14">   
-            <div class="pages" style="text-align:center">
+            <div class="pages" style="text-align:center" data-pageCount="<?php e($this->pageCount) ?>">
                 <a disabled="disabled">
                     首页
                 </a>
                 <a disabled="disabled">
                     上一页
                 </a>
+                <?php
+                    for($i = 1;$i<=$this->pageCount;$i++){
+                        if($i == $this->pageIndex){
+                ?>
                 <span class="cpb">
-                    1
+                    <?php e($i) ?>
                 </span>
+                <?php            
+                        }else{
+                ?>
                 <span class="item">
-                    <a href="/results?q=%25u667A%25u80FD&amp;type=63&amp;page=2">
-                        2
+                    <a href="<?php e(URL)?>result/index?q=<?php e($this->searchText)?>&amp;page=<?php e($i)?>">
+                        <?php e($i) ?>
                     </a>
                 </span>
-                <span class="item">
-                    <a href="/results?q=%25u667A%25u80FD&amp;type=63&amp;page=3">
-                        3
-                    </a>
-                </span>
-                <span class="item">
-                    <a href="/results?q=%25u667A%25u80FD&amp;type=63&amp;page=4">
-                        4
-                    </a>
-                </span>
-                <span class="item">
-                    <a href="/results?q=%25u667A%25u80FD&amp;type=63&amp;page=5">
-                        5
-                    </a>
-                </span>
-                <a href="/results?q=%25u667A%25u80FD&amp;type=63&amp;page=6">
-                    ...
-                </a>
-                <a href="/results?q=%25u667A%25u80FD&amp;type=63&amp;page=2">
+                <?php            
+                        }
+                    }
+                ?>                
+                <a href="#">
                     下一页
                 </a>
-                <a href="/results?q=%25u667A%25u80FD&amp;type=63&amp;page=1000">
+                <a href="#">
                     末页
                 </a>
                 <span class="gotoPage">
                     转到第
                     <input type="text" id="_MvcPager_Ctrl0_pib" value="1" onkeydown="_MvcPager_Keydown(event)">
                     页
-                    <input type="button" value="Go" onclick="_MvcPager_GoToPage(document.getElementById('_MvcPager_Ctrl0_pib'),1000)">
-                    <span id="_MvcPager_Ctrl0_piblink" style="display:none;width:0px;height:0px">
-                        <a href="/results?q=%25u667A%25u80FD&amp;type=63&amp;page=*_MvcPager_PageIndex_*"
-                        onclick="window.open(this.attributes.getNamedItem('href').value,'_self')">
-                        </a>
-                    </span>
+                    <input type="button" value="Go">                   
                 </span>
-            </div>
-            <!--MvcPager 1.5 for ASP.NET MVC 3.0 © 2009-2011 Webdiyer (http://en.webdiyer.com)-->
-            <div class="tc f14" style="color:#888;line-height: 36px;">
-                *注：当前检索结果显示最相关的10000条专利
             </div>
         </div>
     </div>
     </div>
-    <!-- <div class="srl_Wfoot" style="position:relative;">
-        ©2015
-        <a href="http://www.baiten.cn/" target="_blank">
-            baiten
-        </a>
-        <span>
-            服务热线：400-881-7780
-        </span>
-        <span>
-            苏IPC备09077504号-3
-        </span>
-        <a href="http://www.cnzz.com/stat/website.php?web_id=1000100035" target="_blank"
-        title="站长统计">
-            站长统计
-        </a>
-        <a id="step5" data-introinfo="使用IE8.0会有更好的操作体验！" class="introjs-step"
-        data-position="LB">
-            建议使用IE8.0
-        </a>
-        <a class="changeLog" href="/version.html" target="_blank">
-            更新日志
-        </a>
-    </div> -->
 </div>
 <script type="text/javascript">
     var Model = {
         searchText : "<?php e($this->searchText)?>"
     }
+    var json = <?php e(json_encode($this->result))?>
 </script>
 
 

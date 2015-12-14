@@ -12,8 +12,8 @@
 .sm-c{border-bottom:solid 1px #c6c6c6;overflow:hidden;}
 .sm-c-left{width:86px;height: 126px; border:solid 1px #c6c6c6; } 
 .sm-c-leftp{ padding: 20px 15px 20px 0;}
-.sm-c-right{padding:15px 0 15px 0; width:664px;}
-.sm-c-right li{line-height:22px;width: 664px; }
+.sm-c-right{padding:15px 0 15px 0; width:800px;}
+.sm-c-right li{line-height:22px;width: 800px; }
 .sm-c-right li a{color:#15c; cursor:pointer;text-decoration: none;}
 .sm-c-right li label{color: #7C7C7C}
 .sm-c-right li a:hover{text-decoration: underline;}

@@ -38,11 +38,20 @@ public function selectByPubNumber($PubNumber) {
         return false;
     }
 }
-public function selectByKeyword($keyword){
-    $cmd = 'SELECT * FROM userpatent WHERE Abstract LIKE "%'.$keyword.'%" OR ApplicantName LIKE "%'.$keyword.'%"';
+public function selectByKeyword($keyword,$startNum){
+    $cmd = 'SELECT * FROM userpatent WHERE Abstract LIKE "%'.$keyword.'%" OR ApplicantName LIKE "%'.$keyword.'%" LIMIT '.$startNum.','.PAGE_NUM;
     $result = $this->run($cmd);
     if ($result->rowCount() >= 1) {
         return $result->fetchAll();
+    } else {
+        return false;
+    }
+}
+public function selectCount($keyword){
+    $cmd = 'SELECT COUNT(*) AS count FROM userpatent WHERE Abstract LIKE "%'.$keyword.'%" OR ApplicantName LIKE "%'.$keyword.'%"';
+    $result = $this->run($cmd);
+    if ($result->rowCount() == 1) {
+        return $result->fetch();
     } else {
         return false;
     }

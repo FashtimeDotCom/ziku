@@ -28,7 +28,7 @@ $constant = array ('LIB'    => 'lib/',
  */
 define("LOCAL_FLAG", true);
 if (LOCAL_FLAG) {
-	$change_constant = array ('URL'         => 'http://localhost/ziku/',
+	$change_constant = array ('URL'         => 'http://192.168.1.101/ziku/',
 							  'CSS'         => 'public/css/',
 				   			  'JS'          => 'public/js/',
 				   			  'VIEW'        => 'view/',
@@ -55,7 +55,7 @@ if (LOCAL_FLAG) {
 						 	  'DB_USER' => SAE_MYSQL_USER,
 						 	  'DB_PASS' => SAE_MYSQL_PASS);
 }
-
+define("PAGE_NUM", 10);
 // 将数组合并并进行常量定义
 $merge_array = array_merge($constant, $change_constant, $db_setting);
 foreach ($merge_array as $key => $value) {
