@@ -28,10 +28,11 @@ $constant = array ('LIB'    => 'lib/',
  */
 define("LOCAL_FLAG", true);
 if (LOCAL_FLAG) {
-	$change_constant = array ('URL'         => 'http://192.168.1.101/ziku/',
+	$change_constant = array ('URL'         => 'http://localhost/ziku/',
 							  'CSS'         => 'public/css/',
 				   			  'JS'          => 'public/js/',
 				   			  'VIEW'        => 'view/',
+				   			  'FLATUI'      => 'public/flat/',
                               'DEFAULT_CSS' => 'base,common,jquery-ui',
                               'DEFAULT_JS'  => 'jquery,bootstrap,hz');
 	$db_setting      = array (

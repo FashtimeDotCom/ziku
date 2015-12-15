@@ -37,8 +37,8 @@ public function PrjDetail($PubNumber = null){
 }
 // 专有渲染函数
 private function my_render($view, $data = null) {
-    $this->view->insert_css('resultlist');
-    $this->view->insert_js('result/result');
+    $this->view->insert_css('bootstrap.min,bootstrap-reset,style,style-responsive,resultlist');
+    $this->view->insert_js('jquery.scrollTo,jquery.dcjqaccordion.2.7,jquery.nicescroll,respond.min,,common-scripts,result/result');
     $this->render('result/'.$view, $data);
 }
 }
