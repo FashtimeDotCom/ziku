@@ -56,7 +56,7 @@ if (LOCAL_FLAG) {
 						 	  'DB_USER' => SAE_MYSQL_USER,
 						 	  'DB_PASS' => SAE_MYSQL_PASS);
 }
-define("PAGE_NUM", 10);
+define("PAGE_NUM", 8);
 // 将数组合并并进行常量定义
 $merge_array = array_merge($constant, $change_constant, $db_setting);
 foreach ($merge_array as $key => $value) {
