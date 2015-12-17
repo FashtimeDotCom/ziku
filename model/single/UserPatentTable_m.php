@@ -29,7 +29,7 @@ public function selectByApplicantName($ApplicantName) {
 }
 //根据申请人查询
 public function selectByPubNumber($PubNumber) {
-    $cmd = 'SELECT * FROM userpatent WHERE PubNumber=:PubNumber';
+    $cmd = 'SELECT Title,AppNumber,AppDate,PubNumber,PubDate,IPC,ApplicantName,InventorName,AgencyName,AgentName,LawState,Abstract,ClaimsPath,InstrPath FROM userpatent WHERE PubNumber=:PubNumber';
     $param = array('PubNumber' => $PubNumber);
     $result = $this->run($cmd, $param);
     if ($result->rowCount() == 1) {

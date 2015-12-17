@@ -4,7 +4,6 @@ class Result extends Controller {
 function __construct(){
 	parent::__construct();
 }
-
 public function index(){
 	$userpatent_table = new UserPatentTable;
 	$q = Util::fetch_get("q") ? Util::fetch_get("q") : Util::fetch_post("q");
@@ -35,10 +34,28 @@ public function PrjDetail($PubNumber = null){
 	}
 	echo $PubNumber;
 }
+public function getPrjDetail(){
+	$userpatent_table = new UserPatentTable;
+	$pubNumber = Util::fetch_post("PubNumber");
+	$result = array("Status" => false,"Data" => array());
+	if(isset($pubNumber)){
+		$data = $userpatent_table->selectByPubNumber($pubNumber);
+		if($data != false){
+			$result["Status"] = true;
+			foreach ($data as $key => $value) {
+				if(is_numeric($key)){
+				}else{
+					$result["Data"][$key] = $value;
+				}	
+			}
+		}
+	}
+	echo json_encode($result);
+}
 // 专有渲染函数
 private function my_render($view, $data = null) {
-    $this->view->insert_css('bootstrap.min,bootstrap-reset,style,style-responsive,resultlist');
-    $this->view->insert_js('jquery.scrollTo,jquery.dcjqaccordion.2.7,jquery.nicescroll,respond.min,,common-scripts,result/result');
+    $this->view->insert_css('tab,bootstrap.min,bootstrap-reset,style,style-responsive,resultlist');
+    $this->view->insert_js('jquery.scrollTo,jquery.dcjqaccordion.2.7,jquery.nicescroll,respond.min,,common-scripts,tab,result/result');
     $this->render('result/'.$view, $data);
 }
 }

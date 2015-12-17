@@ -31,7 +31,8 @@ public function CateSearch(){
 }
 // 专有渲染函数
 private function my_render($view, $data = null) {
-    $this->view->insert_css('index');
+    $this->view->insert_css('bootstrap.min,bootstrap-reset,style,style-responsive,index');
+    $this->view->insert_js('jquery.scrollTo,jquery.dcjqaccordion.2.7,jquery.nicescroll,respond.min,,common-scripts');
     $this->render('index/'.$view, $data);
 }
 

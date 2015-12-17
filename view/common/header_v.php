@@ -21,6 +21,6 @@
     <?php
     }
     ?>
-
+    <link href="<?php e(URL.FLATUI)?>assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
 </head>
 <body>

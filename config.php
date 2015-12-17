@@ -6,13 +6,22 @@
  * 模型目录
  * 图片目录
  */
-$constant = array ('LIB'    => 'lib/',
-                   'SYSLIB' => 'lib/system/',
-				   'CON'    => 'controller/',
-				   'MOD'    => 'model/',
-				   'IMG'    => 'public/img/',
-				   'ATT'    => 'public/att/',
-				   'TITLE'  => 'SuRock');
+$constant = array ('LIB'         => 'lib/',
+                   'SYSLIB'      => 'lib/system/',
+				   'CON'         => 'controller/',
+				   'MOD'         => 'model/',
+				   'IMG'         => 'public/img/',
+				   'ATT'         => 'public/att/',
+				   'TITLE'       => 'Ziku 专利查询系统',
+				   'CSS'         => 'public/css/',
+				   'JS'          => 'public/js/',
+				   'VIEW'        => 'view/',
+				   'FLATUI'      => 'public/flat/',
+				   "PUBLIC"      => 'public/',
+                   'DEFAULT_CSS' => 'base,common,jquery-ui',
+                   'DEFAULT_JS'  => 'jquery,bootstrap,hz',
+                   'PAGE_NUM'    =>8,
+                   'PAGE_MAX'    =>12);
 
 /* 当LOCAL_FLAG为true时，使用本地SQL配置，反之使用服务器配置，默认为SAE
  * 网址
@@ -28,13 +37,7 @@ $constant = array ('LIB'    => 'lib/',
  */
 define("LOCAL_FLAG", true);
 if (LOCAL_FLAG) {
-	$change_constant = array ('URL'         => 'http://localhost/ziku/',
-							  'CSS'         => 'public/css/',
-				   			  'JS'          => 'public/js/',
-				   			  'VIEW'        => 'view/',
-				   			  'FLATUI'      => 'public/flat/',
-                              'DEFAULT_CSS' => 'base,common,jquery-ui',
-                              'DEFAULT_JS'  => 'jquery,bootstrap,hz');
+	$change_constant = array ('URL' => 'http://localhost/ziku/');
 	$db_setting      = array (
 						      'DB_TYPE' => 'mysql',
 						      'DB_HOST' => 'localhost',
@@ -43,12 +46,7 @@ if (LOCAL_FLAG) {
 						 	  'DB_USER' => 'root',
 						 	  'DB_PASS' => '');
 } else {
-	$change_constant = array ('URL'         => 'http://simplemvc.sinaapp.com/',
-							  'CSS'         => 'public/css_min/',
-				   			  'JS'          => 'public/js_min/',
-				   			  'VIEW'        => 'view_min/',
-                              'DEFAULT_CSS' => 'Ziku',
-                              'DEFAULT_JS'  => 'Ziku');
+	$change_constant = array ('URL' => 'http://huangzhen.sinaapp.com/',);
 	$db_setting      = array ('DB_TYPE' => 'mysql',
 						 	  'DB_HOST' => SAE_MYSQL_HOST_M,
 						 	  'DB_PORT' => SAE_MYSQL_PORT,
@@ -56,7 +54,6 @@ if (LOCAL_FLAG) {
 						 	  'DB_USER' => SAE_MYSQL_USER,
 						 	  'DB_PASS' => SAE_MYSQL_PASS);
 }
-define("PAGE_NUM", 8);
 // 将数组合并并进行常量定义
 $merge_array = array_merge($constant, $change_constant, $db_setting);
 foreach ($merge_array as $key => $value) {

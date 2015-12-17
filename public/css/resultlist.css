@@ -4,3 +4,12 @@
 .label {
     font-size: 10px;
 }
+.sr-input:active,.sr-input:hover{
+  width: 500px;
+  -webkit-transition: all ease-in-out 1ss;
+  transition: all ease-in-out 1s;
+}
+.pagination>li>a.page-active{
+  background-color: #5B6E84;
+  color: #fff;
+}
